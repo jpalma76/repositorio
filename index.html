@@ -21,96 +21,126 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <title>Inicio portafolio</title>
-    
-    <link rel="stylesheet" href="css/index.css">
+    <!-- seccion de estilos -->
+    <!-- VISTA MOVIL -->
+    <link rel="stylesheet" href="./css-mobile/header.css" media="(max-width: 600px)">
+    <link rel="stylesheet" href="./css-mobile/navbar.css" media="(max-width: 600px)">
+    <link rel="stylesheet" href="./css-mobile/index.css" media="(max-width: 600px)">
+    <link rel="stylesheet" href="./css-mobile/footer.css" media="(max-width: 600px)">
+
+    <!-- VISTA WEB -->
+    <link rel="stylesheet" href="./css/header.css" media="(min-width: 601px)">
+    <link rel="stylesheet" href="./css/navbar.css" media="(min-width: 601px)">
+    <link rel="stylesheet" href="./css/index.css" media="(min-width: 601px)">
+    <link rel="stylesheet" href="./css/footer.css" media="(min-width: 601px)">
+
+   <!--  <link rel="stylesheet" href="./css-mobile/header.css">
+    <link rel="stylesheet" href="./css-mobile/navbar.css">
+    <link rel="stylesheet" href="./css-mobile/footer.css">
+    <link rel="stylesheet" href="./css-mobile/index.css"> -->
+
 </head>
 <body>
     <header class="head-layout">
-
-        <a href="./index.html">
-            <figure class="image-container">
-                <img id="avatar" src="./images/avatar.jpg" alt="avatar mio">
+        
+        <figure class="image-container">
+            <a href="./index.html">
+                <img id="avatar" src="./images/foto-mia.jpeg" alt="avatar mio">
+            </a>
             </figure>
-        </a>
 
-        <div class="personal-info">
-            <div class="name">Programador Frontend Junior</div>
-        </div>
-
-            <div class="line">
-                <hr>
-            </div>
+        <h3 class="title">Programador Web Junior</h3>
             
-            <ul class="nav-links">
-                <li class="item">
-                    <a href="./index.html">Home</a>
-                </li>
-    
-                <li class="item">
-                    <a href="./curriculum.html">Curriculum</a>
-                </li>
-    
-                <li class="item">
-                    <a href="./certificados.html">Certificados</a>
-                </li>
-    
-            </ul>
+        <ul class="nav-links">
+            <li class="item">
+                <a href="./index.html">Home</a>
+            </li>
+
+            <li class="item">
+                <a href="./curriculum.html">Curriculum</a>
+            </li>
+
+            <li class="item">
+                <a href="./certificados.html">Certificados</a>
+            </li>
+
+            <li class="item">
+                <a href="./Skills.html">Otras Certificaciones</a>
+            </li>
+        </ul>
     </header>
 
-    <main class="container">
+    <nav class="navbar">
+        <ul class="rrss">
+                <li>
+                    <a target="_blank" href="https://twitter.com/JPALMA76">Twitter</a>
+                </li>
 
-        <div class="presentacion">
+                <li>
+                    <a target="_blank" href="https://www.facebook.com">Facebook</a>
+                </li>
 
-            <div class="card">
-                <img class="card-img-top" src="./images/foto-mia.jpg" alt="">
+                <li>
+                    <a target="_blank" href="https://instagram.com">Instagram</a>
+                </li>
+
+                <li>
+                    <a target="_blank" href="https://www.linkedin.com/in/juan-palma-alvarez-a9373222a/">LinkedIn</a>
+                </li>
+            </ul>
+    </nav>
+
+    <main class="index-container">
+
+            <section class="home-card">
+
+                <div class="imagen-container">
+                    <img id="avatar2" src="./images/foto-mia2.jpeg" alt="">
+                </div>
+
                 <div class="card-body">
-                    <h4 class="card-title">Juan Palma Alvarez</h4>
-                    <p class="card-text">Programador Frontend Junior</p>
+                    <p class="card-title">Juan Palma Alvarez</p>
+                    <p class="card-text">Programador Web Junior</p>
                     <p class="card-text">- HTML - CSS - Javascript</p>
                     <p class="card-text">Resposive design - movile-first - Flex y CSS Grid</p>
                     <p class="card-text">- PHP terminal linux y consola de Windows</p>
                     <p class="card-text">- NodeJS - React - Express</p>
-    
                 </div>
-            </div>
+            </section>
 
-            <div class="quien-soy">
-                <p>Soy programador frontend junior en constante aprendizaje, las tecnologias que manejo al momento son básicas por el momento</p>
+            <section class="home-card2">
+                <p>Soy programador frontend junior en constante aprendizaje, las tecnologias que manejo al momento son básicas por el momento.</p>
                 <p>Me he concentrado en aprender toda la gama de lenguajes y tecnologías par ver hacia donde dirigir mi camino, mas bien pensado en que lenguaje pueda rendir mejor y poder ser la mejor versión de mi.</p>
-            </div>
-
-        </div>
+            </section>
 
     </main>
 
-    <footer class="footer">
+    <footer class="footer-container">
+        <ul class="footer-icons">
+            <li>
+                <a target="_blank" href="https:///www.facebook.com">
+                    <img class="icon" src="./images/iconfacebook.svg" alt="">
+                </a>
+            </li>
 
-        <div class="footer-left">
-            <ul class="rrss">
-                 <li>
-                     <a target="_blank" href="https://twitter.com/JPALMA76">Twitter</a>
-                 </li>
- 
-                 <li>
-                     <a target="_blank" href="https://www.facebook.com">Facebook</a>
-                 </li>
- 
-                 <li>
-                     <a target="_blank" href="https://instagram.com">Instagram</a>
-                 </li>
- 
-                 <li>
-                     <a target="_blank" href="https://www.linkedin.com/in/juan-palma-alvarez-a9373222a/">LinkedIn</a>
-                 </li>
+            <li>
+                <a target="_blank" href="https:///www.twitter.com">
+                    <img class="icon" src="./images/icontwitter.svg" alt="">
+                </a>
+            </li>
 
-             </ul>
-        </div>
-
-        <div class="footer-right">
-           jpalma76@2023
-        </div>
+            <li>
+                <a target="_blank" href="https:///www.instagram.com">
+                    <img class="icon" src="./images/instagram-logo.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https:///www.youtube.com">
+                    <img class="icon" src="./images/iconyoutube.svg" alt="">
+                </a>
+            </li>
+        </ul>
     </footer>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2739481654152230"
-     crossorigin="anonymous"></script>
+
 </body>
 </html>

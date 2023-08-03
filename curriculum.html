@@ -20,93 +20,130 @@
     <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <title>descargar curriculum</title>
-    <link rel="stylesheet" href="./css/curriculum.css">
-    <style>
-        
-    </style>
+    <title>Inicio portafolio</title>
+    <!-- seccion de estilos -->
+    <!-- VISTA MOVIL -->
+    <link rel="stylesheet" href="./css-mobile/header.css" media="(max-width: 600px)">
+    <link rel="stylesheet" href="./css-mobile/navbar.css" media="(max-width: 600px)">
+    <link rel="stylesheet" href="./css-mobile/index.css" media="(max-width: 600px)">
+    <link rel="stylesheet" href="./css-mobile/curriculum.css" media="(max-width: 600px)">
+    <link rel="stylesheet" href="./css-mobile/certificados.css" media="(max-width: 600px)">
+    <link rel="stylesheet" href="./css-mobile/skills.css" media="(max-width: 600px)">
+    <link rel="stylesheet" href="./css-mobile/footer.css" media="(max-width: 600px)">
+
+    <!-- VISTA WEB -->
+    <link rel="stylesheet" href="./css/header.css" media="(min-width: 601px)">
+    <link rel="stylesheet" href="./css/navbar.css" media="(min-width: 601px)">
+    <link rel="stylesheet" href="./css/index.css" media="(min-width: 601px)">
+    <link rel="stylesheet" href="./css/curriculum.css" media="(min-width: 601px)">
+    <link rel="stylesheet" href="./css/certificados.css" media="(min-width: 601px)">
+    <link rel="stylesheet" href="./css/certificados.css" media="(min-width: 601px)">
+    <link rel="stylesheet" href="./css/footer.css" media="(min-width: 601px)">
+
+   <!--  <link rel="stylesheet" href="./css-mobile/header.css">
+    <link rel="stylesheet" href="./css-mobile/navbar.css">
+    <link rel="stylesheet" href="./css-mobile/footer.css">
+    <link rel="stylesheet" href="./css-mobile/index.css"> -->
+   
 </head>
 <body>
     <header class="head-layout">
-
-        <a href="./index.html">
-            <figure class="image-container">
-                <img id="avatar" src="./images/avatar.jpg" alt="avatar mio">
+        
+        <figure class="image-container">
+            <a href="./index.html">
+                <img id="avatar" src="./images/foto-mia.jpeg" alt="avatar mio">
+            </a>
             </figure>
-        </a>
 
-        <div class="personal-info">
-            <div class="name">Programador Frontend Junior</div>
-        </div>
-
-            <div class="line">
-                <hr>
-            </div>
+        <h3 class="title">Programador Web Junior</h3>
             
-            <ul class="nav-links">
-                <li class="item">
-                    <a href="./index.html">Home</a>
-                </li>
-    
-                <li class="item">
-                    <a href="./curriculum.html">Curriculum</a>
-                </li>
-    
-                <li class="item">
-                    <a href="./certificados.html">Certificados</a>
-                </li>
-    
-            </ul>
+        <ul class="nav-links">
+            <li class="item">
+                <a href="./index.html">Home</a>
+            </li>
+
+            <li class="item">
+                <a href="./curriculum.html">Curriculum</a>
+            </li>
+
+            <li class="item">
+                <a href="./certificados.html">Certificados</a>
+            </li>
+
+            <li class="item">
+                <a href="./Skills.html">Otras Certificaciones</a>
+            </li>
+        </ul>
     </header>
 
-    <main class="container">
+    <nav class="navbar">
+        <ul class="rrss">
+                <li>
+                    <a target="_blank" href="https://twitter.com/JPALMA76">Twitter</a>
+                </li>
 
-       <section class="download">
+                <li>
+                    <a target="_blank" href="https://www.facebook.com">Facebook</a>
+                </li>
 
-            <div class="presentation">
-                <h4>Presentación</h4>
-                <p>Juan Palma alvarez, autodidacta</p>
-                <p>Programador Frontend Junior</p>
-                <p>Actualmente estudiando en Platzi</p>
-            </div>
-            <hr>
+                <li>
+                    <a target="_blank" href="https://instagram.com">Instagram</a>
+                </li>
 
-            <div class="curriculum">
-                <p>Descargar:</p>
-                <a id="download-CV" target="_blank" href="https://mega.nz/file/nwFUhQDa#JG79Hjuo43VPEMi-C-ZJVhODSy0na-62RodgZemUs8s">-  Descargar Curriculum vitae</a>
-            </div>
-       </section>
+                <li>
+                    <a target="_blank" href="https://www.linkedin.com/in/juan-palma-alvarez-a9373222a/">LinkedIn</a>
+                </li>
+            </ul>
+    </nav>
 
-    </main>
+    <main class="curriculum-container">
 
-    <footer class="footer">
+        <section class="box-download">
+            
+             <div class="presentation">
+                 <h4>Presentación</h4>
+                 <p>Juan Palma alvarez, autodidacta</p>
+                 <p>Programador Web Junior</p>
+                 <p>Actualmente estudiando en Platzi</p>
+             </div>
 
-        <div class="footer-left">
-            <ul class="rrss">
-                 <li>
-                     <a target="_blank" href="https://twitter.com/JPALMA76">Twitter</a>
-                 </li>
+             <hr>
+             <div class="curriculum">
+                 <p>Descarga aqui mi Curriculum Vitae:</p>
+                 <a id="download-CV" target="_blank" href="https://mega.nz/file/nwFUhQDa#JG79Hjuo43VPEMi-C-ZJVhODSy0na-62RodgZemUs8s">Descargar Curriculum vitae</a>
+             </div>
+
+        </section>
  
-                 <li>
-                     <a target="_blank" href="https://www.facebook.com">Facebook</a>
-                 </li>
- 
-                 <li>
-                     <a target="_blank" href="https://instagram.com">Instagram</a>
-                 </li>
- 
-                 <li>
-                     <a target="_blank" href="https://www.linkedin.com/in/juan-palma-alvarez-a9373222a/">LinkedIn</a>
-                 </li>
+     </main>
 
-             </ul>
-        </div>
+     <footer class="footer-container">
+        <ul class="footer-icons">
+            <li>
+                <a target="_blank" href="https:///www.facebook.com">
+                    <img class="icon" src="./images/iconfacebook.svg" alt="">
+                </a>
+            </li>
 
-        <div class="footer-right">
-           jpalma76@2023
-        </div>
+            <li>
+                <a target="_blank" href="https:///www.twitter.com">
+                    <img class="icon" src="./images/icontwitter.svg" alt="">
+                </a>
+            </li>
+
+            <li>
+                <a target="_blank" href="https:///www.instagram.com">
+                    <img class="icon" src="./images/instagram-logo.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https:///www.youtube.com">
+                    <img class="icon" src="./images/iconyoutube.svg" alt="">
+                </a>
+            </li>
+        </ul>
     </footer>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2739481654152230"
-     crossorigin="anonymous"></script>
+     
+    
 </body>
 </html>

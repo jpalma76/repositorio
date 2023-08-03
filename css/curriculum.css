@@ -1,114 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-/* header principal */
-.head-layout {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 230px;
-    background-color: rgb(81, 116, 229);
-}
-.image-container {
-    width: 80px;
-    height: 80px;
-    margin: 20px;
-}
-.image-container #avatar {
-    width: 80px;
-    height: 80px;
-    border-radius: 50px;
-    border: 5px double white;
-}
-
-/* Peersonal Info */
-.personal-info {
-    display: flex;
-    height: 80px;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-}
-.personal-info div {
-    font-size: 20px;
-}
-
-.personal-info p {
-    font-size: 14px;
-    margin-top: 5px;
-    font-weight: bold;
-}
-
-.line {
-    width: 300px;
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
-
-/* Header derecha */
-.nav-links {
-    display: flex;
-    width: 30%;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
-.nav-links .item {
-    list-style: none;
-   
-}
-.nav-links a {
-    font-size: 18px;
-    color: white;
-    text-decoration: none;
-    padding: 5px 15px 5px 15px;
-    border-radius: 35px;
-    transition: .4s;
-}
-.nav-links a:hover {
-    background-color: lightgrey;
-    color: rgb(111, 111, 235);
-    text-decoration: none;
-}
-.curriculum #download-CV {
-    color: white;
-    text-decoration: none;
-}
-.curriculum #download-CV:hover {
-    color: blue;
-    transition: .4s;
-
-}
-
 
 /* container disposicion del Main */
-.container{
+.curriculum-container {
     display: flex;
     width: 100%;
-    height: 330px;
+    height: 270px;
     box-sizing: border-box;
-    background-color:rgb(215, 221, 221);
-    justify-content: center;
-    align-items: center;
     background-image: url('../images/fondo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    justify-content: center;
 }
-.download {
-    background-color: #929cd6;
+.box-download {
     box-sizing: border-box;
-    width: 450px;
-    height: 230px;
-    border: 1px solid white;
-    border-radius: 35px;
+    background-color: #46518e;
     color: white;
+    width: 450px;
+    height: 210px;
+    border-radius: 35px;
     padding: 10px;
+    margin-top: 30px;
 }
 .presentation {
     justify-content: center;
@@ -132,52 +42,11 @@ hr {
 .curriculum p {
     margin-bottom: 5px;
 }
-.curriculum a {
+#download-CV {
+    color: rgb(6, 6, 84);
     text-decoration: none;
-    font-weight: bold;
+    font-size: 17px;
 }
-
-/* Footer principal */
-.footer {
-    width: 100%;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: lightslategray;
-}
-.footer-left {
-    width: 35%;
-    margin-left: 20px;
-}
-.rrss {
-    display: flex;
-    justify-content: space-between;
-}
-.rrss li {
-    list-style: none;
-}
-.rrss li a {
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
-    color: white;
-    padding: 5px 15px 5px 15px;
-    border-radius: 35px;
-    transition: .4s;
-}
-.rrss li a:hover {
-background-color: lightgrey;
-    color: yellow;
-    text-decoration: none;
-}
-.rrss li a:active {
-        color: red;
-}
-
-.footer-right {
-    color: blue;
-    font-size: 14px;
-    font-weight: bold;
-    margin-right: 30px;
+#download-CV:hover {
+    color: rgb(209, 209, 62);
 }

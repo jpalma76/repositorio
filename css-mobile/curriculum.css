@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.curriculum-container {
+    width: 390px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    background-color: #7682b5;
+    color: white;
+    padding-top: 40px;
+}
+.box-download {
+    width: 300px;
+    height: 270px;
+    background-color: rgb(69, 81, 168);
+    border: 2px solid white;
+    border-radius: 16px;
+    padding: 25px 30px;
+}
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+#download-CV {
+    text-decoration: none;
+    font-size: 17px;
+}
+.curriculum p {
+    margin-bottom: 10px;
+}
