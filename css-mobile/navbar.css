@@ -5,9 +5,11 @@
 }
 .navbar {
     width: 390px;
-    height: 50px;
+    height: 100px;
     background-color: rgb(67, 103, 139);
     margin-bottom: 30x;
+    display: flex;
+    padding: 7px;
     justify-content: center;
 }
 .rrss {
