@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .curriculum-container {
-    width: 390px;
+    max-width: 600px;
     height: 380px;
     display: flex;
     justify-content: center;
