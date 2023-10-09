@@ -21,7 +21,7 @@
     position: relative;
     display: flex;
     max-width: 600px;
-    min-height: 230px;
+    min-height: 280px;
     align-items: center;
     border-radius: 25px;
     border: 1px solid white;
@@ -63,7 +63,7 @@
     flex-direction: column;
     max-width: 600px;
     min-width: 400px;
-    min-height: 230px;
+    min-height: 280px;
     align-items: center;
     justify-content: center;
     border-radius: 25px;

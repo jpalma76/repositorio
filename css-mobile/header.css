@@ -13,13 +13,12 @@
     justify-content: center;
     align-items: center;
     background-color: #181d33;
-
     color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     max-width: 600px;
-    height: 240px;
+    height: 200px;
 }
 /* AVATAR */
 .image-container {
