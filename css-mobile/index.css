@@ -3,38 +3,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .index-container {
     display: flex;
     flex-direction: column;
     max-width: 600px;
     background-color: #181d33;
-    justify-content: center;
-    align-items: center;
+    padding-left: 40px;
 }
 .home-card {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 90%;
     border: 1px solid white;
     border-radius: 15px;
-    margin-top: 40px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     align-items: center;
-    justify-content: center;
     margin-top: 30px;
-    padding: 30px 40px;
+    padding: 30px;
     background-color: rgb(69, 81, 168);
     color: white;
+    justify-content: center;
 }
 .home-card p {
-    width: 400px;
+    font-size: 14px;
+    text-align: justify;
 }
 .imagen-container {
     display: flex;
     width: 100%;
     height: 95px;
     justify-content: center;
+    margin-bottom: 15px;
 }
 #avatar2 {
     width: 80px;
@@ -49,21 +50,31 @@
 .card-title {
     font-size: 18px;
     font-weight: bold;
+    margin-left: 0;
 }
 .home-card2 {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 90%;
     border: 1px solid white;
     border-radius: 15px;
     margin-bottom: 20px;
     align-items: center;
     margin-top: 30px;
-    padding: 30px 50px;
+    padding: 40px;
     background-color: rgb(69, 81, 168);
     color: white;
 }
 .home-card2 p {
     text-align: justify;
     margin-top: 7px;
+    font-size: 14px;
+}
+.url-repository, .link-portfolio {
+    color: blue;
+    text-decoration: none;
+
+}
+.url-repository:hover, .link-portfolio:hover {
+    color: yellow;
 }

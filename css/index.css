@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .index-container{
     display: flex;
@@ -24,7 +25,7 @@
     align-items: center;
     border-radius: 25px;
     border: 1px solid white;
-    background-color: rgb(69, 81, 168);
+    background-color: rgb(140, 148, 215);
     opacity: .8;
     margin-left: 50px;
     padding: 35px;
@@ -67,9 +68,8 @@
     justify-content: center;
     border-radius: 25px;
     border: 1px solid white;
-    background-color: rgb(69, 81, 168);
+    background-color: rgb(140, 148, 215);
     opacity: .8;
-    margin-right: 50px;
     margin-right: 50px;
     padding: 30px 35px;
     color: white;
@@ -81,6 +81,15 @@
     max-width: 90%;
 
 }
+.url-repository, .link-portfolio {
+    color: blue;
+    text-decoration: none;
+
+}
+.url-repository:hover, .link-portfolio:hover {
+    color: yellow;
+}
+
 @media(max-width:1000px) {
     .index-container{
         flex-direction: column;
