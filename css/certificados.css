@@ -25,12 +25,12 @@ p {
     display: flex;
     flex-direction: column;
     border: 2px solid rgb(15, 22, 72);
-    width: 270px;
-    height: 260px;
+    width: 260px;
+    height: 270px;
     border-radius: 3%;
     background-color: rgb(52, 59, 141);
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -42,14 +42,18 @@ p {
     height: 170px;
     border-radius: 3%;
 }
+/* Contenedor del combre del curso */
 .nombre-curso {
-    width: 270px;
-    height: 60px;
+    width: 260px;
+    height: 70px;
     display: flex;
-    align-content: center;
+    align-items: center;
+
 }
+/* nombre de la imagen */
 .img-name {
     width: 236px;
     color: white;
     text-align: center;
+    font-size: 14px;
 }
