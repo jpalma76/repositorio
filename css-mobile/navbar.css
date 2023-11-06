@@ -5,35 +5,22 @@
 }
 .navbar {
     max-width: 600px;
-    height: 100px;
+    height:200px;
     background-color: rgb(67, 103, 139);
     margin-bottom: 30x;
     display: flex;
     padding: 7px;
     justify-content: center;
 }
-.rrss {
-    display: flex;
-    list-style: none;
-    width: 70%;
-    height: 50px;
-    align-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    padding-left: 20px;
-    padding-right: 20px;
+.nav-links {
+    width: 90%;
 }
-.rrss li a {
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
+.nav-links .item a {
+    text-align: center;
+    font-size: 13px;
     font-weight: bold;
-    padding: 10px 13px;
-    border-radius: 25px;
 }
-.rrss li a:hover {
-    text-decoration: none;
-    background-color: rgb(215, 215, 72);
-    color: white;
-
+.nav-links .item a:hover {
+    background-color: yellow;
+    color: blue;
 }

@@ -8,35 +8,18 @@
 /* navbar principal */
 .navbar {
     width: 100%;
-    height: 60px;
+    height: 50px;
     background-color: rgb(67, 103, 139);
     display: flex;
     justify-content: center;
 }
-.rrss {
-    display: flex;
-    width: 60%;
-    height: 60px;
-    justify-content: space-around;
-    align-items: center;
-    box-sizing: border-box;
+.nav-links {
+    width: 95%;
 }
-.rrss li {
-    list-style: none;
+.nav-links .item a {
+    font-size: 15px;
 }
-.rrss li a {
-    text-decoration: none;
-    font-size: 16px;
-    color: white;
-    padding: 8px 15px 8px 15px;
-    border-radius: 35px;
-    transition: .4s;
-}
-.rrss li a:hover {
-background-color: lightgrey;
-    color: rgb(111, 111, 235);
-    text-decoration: none;
-}
-.rrss li a:active {
-        color: red;
+.nav-links .item a:hover {
+    background-color: yellow;
+    color: blue;
 }
