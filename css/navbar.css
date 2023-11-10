@@ -14,10 +14,10 @@
     justify-content: center;
 }
 .nav-links {
-    width: 95%;
+    width: 100%;
 }
 .nav-links .item a {
-    font-size: 15px;
+    font-size: 12px;
 }
 .nav-links .item a:hover {
     background-color: yellow;
