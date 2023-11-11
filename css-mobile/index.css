@@ -18,17 +18,18 @@
     width: 90%;
     border: 1px solid white;
     border-radius: 15px;
-    margin-bottom: 20px;
     align-items: center;
     margin-top: 30px;
-    padding: 30px;
+    padding: 30px 10px;
     background-color: rgb(140, 148, 215);
     color: white;
     justify-content: center;
+    padding: 40px;
 }
 .home-card p {
     font-size: 14px;
     text-align: justify;
+    margin: 0;
 }
 .imagen-container {
     display: flex;
@@ -44,15 +45,14 @@
     border: 5px double white;
     margin-bottom: 20px;
 }
-.card-body {
-    width: 310px;
-}
+
 .card-title {
     font-size: 18px;
     font-weight: bold;
     margin-left: 0;
 }
 .home-card2 {
+
     display: flex;
     flex-direction: column;
     width: 90%;
