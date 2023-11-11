@@ -5,7 +5,7 @@
 }
 .navbar {
     max-width: 600px;
-    height:200px;
+    height:290px;
     background-color: rgb(67, 103, 139);
     margin-bottom: 30x;
     display: flex;
@@ -21,6 +21,5 @@
     font-weight: bold;
 }
 .nav-links .item a:hover {
-    background-color: yellow;
     color: blue;
 }

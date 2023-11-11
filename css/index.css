@@ -21,13 +21,13 @@
     position: relative;
     display: flex;
     max-width: 600px;
-    min-height: 280px;
+    min-height: 350px;
     align-items: center;
     border-radius: 25px;
     border: 1px solid white;
     background-color: rgb(140, 148, 215);
     opacity: .8;
-    margin-left: 50px;
+    margin-left: 30px;
     padding: 35px;
 }
 .home-card p{
@@ -63,6 +63,7 @@
     flex-direction: column;
     max-width: 600px;
     min-width: 400px;
+    height: 350px;
     min-height: 280px;
     align-items: center;
     justify-content: center;
@@ -70,15 +71,12 @@
     border: 1px solid white;
     background-color: rgb(140, 148, 215);
     opacity: .8;
-    margin-right: 50px;
-    padding: 30px 35px;
     color: white;
 }
 .home-card2 p {
-    margin-bottom:20px;
     text-align: justify;
     font-size: 15px;
-    max-width: 90%;
+    max-width: 80%;
 
 }
 .url-repository, .link-portfolio {
