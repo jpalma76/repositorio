@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     max-width: 600px;
-    background-color: #181d33;
+    background-color: #667ac8;
     padding-left: 40px;
 }
 .home-card {
@@ -20,7 +20,7 @@
     border-radius: 15px;
     align-items: center;
     margin-top: 30px;
-    padding: 30px 10px;
+    padding: 20px 10px;
     background-color: rgb(140, 148, 215);
     color: white;
     justify-content: center;

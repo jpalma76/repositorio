@@ -2,24 +2,50 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 .navbar {
     max-width: 600px;
-    height:290px;
+    min-width: 350px;
+    height:auto;
     background-color: rgb(67, 103, 139);
-    margin-bottom: 30x;
+    margin-bottom: 20x;
     display: flex;
     padding: 7px;
     justify-content: center;
 }
 .nav-links {
-    width: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.nav-links li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 18px;
+    list-style: none;
 }
 .nav-links .item a {
-    text-align: center;
-    font-size: 13px;
-    font-weight: bold;
+    color: white;
+    text-decoration: none;
 }
 .nav-links .item a:hover {
     color: blue;
+}
+
+.navbar .select-container {
+    color: black;
+    display: flex;
+    right: 40px;
+}
+.select, option {
+    color: blue;
+    font-weight: bold;
 }

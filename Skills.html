@@ -22,6 +22,7 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <title>Inicio portafolio</title>
     <!-- seccion de estilos -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <!-- VISTA MOVIL -->
     <link rel="stylesheet" href="./css-mobile/header.css" media="(max-width: 600px)">
     <link rel="stylesheet" href="./css-mobile/navbar.css" media="(max-width: 600px)">
@@ -37,55 +38,54 @@
 </head>
 <body>
     <header class="head-layout">
-        
-        <figure class="image-container">
-            <a href="./index.html">
-                <img id="avatar" src="./images/foto-mia.jpeg" alt="avatar mio">
-            </a>
-            </figure>
-
-        <h3 class="title">Programador Web Junior</h3>
-            
+        <a href="./index.html">
+            <img id="avatar" src="./images/foto-mia.jpeg" alt="avatar mio">
+        </a>
+        <div class="title-container">
+            <p class="first">Portafolio </p>
+            <p class="second">Desarrollador Frontend junior</p>
+        </div>
     </header>
     
     <nav class="navbar">
         <ul class="nav-links">
-            <li class="item">
-                <a href="./index.html">Home</a>
-            </li>
+            <a href="./index.html">
+                    <li class="item">
+                    Home
+                </li>
+            </a>
     
-            <li class="item">
-                <a href="./curriculum.html">Curriculum</a>
-            </li>
+            <a href="./curriculum.html">
+                    <li class="item">
+                    Curriculum
+                </li>
+            </a>
     
-            <li class="item">
-                <a href="./certificados.html">Certificados</a>
-            </li>
+            <a href="./certificados.html">
+                <li class="item">
+                    Certificados
+                </li>
+            </a>
     
-            <li class="item">
-                <a href="./Skills.html">Otras Certificaciones</a>
-            </li>
-
-            <li class="item">
-                <a href="https://otro-portafolio.netlify.app/">Portafolio simple</a>
-            </li>
-
-            <li class="item">
-                <a target="_blank" href="https://juego-mokepon-platzi.netlify.app/">Juego Mokepon Platzi</a>
-            </li>
-
-            <li class="item">
-                <a target="_blank" href="https://ejercicio-de-validacion-rut-chileno.netlify.app/">Validacion de Rut Chileno</a>
-            </li>
-            
-            <li class="item">
-                <a target="_blank" href="https://renderizado-de-peliculas.netlify.app/">Ejercicio de Renderizado de Películas</a>
-            </li>
-
-            <li class="item">
-                <a target="_blank" href="https://github.com/jpalma76">Repositorio</a>
-            </li>
+            <a href="./Skills.html">
+                <li class="item">
+                    Otras Certificaciones
+                </li>
+            </a>
         </ul>
+
+        <div class="select-container">
+            <select name="projects" id="projects" class="form-control-sm select">
+                <option value="0">Seleccione Proyecto</option>
+                <option value="1">Otro Portafolio</option>
+                <option value="2">Juego Mokepon</option>
+                <option value="3">Validador Rut Chileno</option>
+                <option value="4">ejercicio renderizado con JQuery</option>
+                <option value="5">Repositorio GitHub</option>
+            </select>
+            <div id="message"></div>
+            <input class="btn btn-success mx-2" type="button" value="Ir" onclick="visitar()">
+        </div>
     </nav>
     
     <!-- Insercion de los cursos con JS -->
@@ -118,6 +118,9 @@
         </ul>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/cursos.js"></script>
+    <script src="./js/index.js"></script>
     <script src="./js/skills.js"></script>
      
 </body>

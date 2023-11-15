@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
 .grid-container {
@@ -10,7 +11,7 @@
     align-items: center;
     max-width: 600px;
     padding: 0;
-    background-color: #181d33;
+    background-color: #667ac8;
 }
 .grid-item {
     display: flex;
@@ -19,7 +20,7 @@
     border: 2px solid white;
     border-radius: 10px;
     width: 300px;
-    height: 300px;
+    height: 345px;
     text-align: center;
     margin-top: 30px;
     padding: 0 10px 0 10px;
@@ -43,7 +44,7 @@
 .grid-item:hover {
     cursor: pointer;
     width: 305px;
-    height: 305px;
+    height: 350px;
     .img-cert {
         width: 284px;
         height: 214px;

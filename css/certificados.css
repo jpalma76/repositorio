@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
 .grid-container {
@@ -9,9 +10,7 @@
     grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
     padding: 30px;
     gap: 20px;
-    background-image: url('../images/fondo.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: burlywood;
 }
 p {
     margin: 0;

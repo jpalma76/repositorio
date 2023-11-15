@@ -4,7 +4,11 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* header principal */
 .head-layout {
     display: flex;
@@ -14,62 +18,26 @@
     height: 180px;
     background-color: #181d33;
 }
-.image-container {
-    width: 100px;
-    height: 100px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-.image-container #avatar {
-    width: 90px;
-    height: 90px;
+
+#avatar {
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     border: 5px double white;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 /* Personal Info */
-.personal-info {
-    display: flex;
-    height: 50px;
+.title-container {
     text-align: center;
-    justify-content: center;
-    color: white;
-    margin-top: 10px;
 }
-
-.personal-info p {
-    font-size: 22px;
+.first {
+    font-size: 18px;
     font-weight: bold;
+    margin: 0;
 }
-
-/* Header derecha */
-.nav-links {
-    display: flex;
-    width: 70%;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
-.nav-links .item {
-    height: 25px;
-    text-align: center;
-    list-style: none;
-    padding-top:1rem;
-    padding-bottom: 1rem;
-    padding-left: 1,5rem;
-    padding-right: 1,5rem;
-   
-}
-.nav-links a {
-    font-size: 16px;
-    color: white;
-    text-decoration: none;
-    padding: 8px 15px 8px 15px;
-    border-radius: 35px;
-    transition: .4s;
-}
-.nav-links a:hover {
-    background-color: lightgrey;
-    color: rgb(111, 111, 235);
-    text-decoration: none;
+.second {
+    font-size: 14px;
+    margin: 0;
 }

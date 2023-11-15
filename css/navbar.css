@@ -2,24 +2,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
 
 /* navbar principal */
 .navbar {
-    width: 100%;
-    height: 50px;
-    background-color: rgb(67, 103, 139);
-    display: flex;
-    justify-content: center;
+    position: relative;
+    left: -1px;
+    width: 102%;
+    height: 60px;
+    background-color: rgb(82, 82, 122);
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .nav-links {
-    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    height: 60px;
+    display: flex;
+    margin: 0;
 }
-.nav-links .item a {
-    font-size: 12px;
+.nav-links .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
 }
-.nav-links .item a:hover {
-    background-color: yellow;
+.nav-links a {
+    text-decoration: none;
+}
+
+.select-container {
+    color: black;
+    display: flex;
+    position: absolute;
+    right: 40px;
+}
+.select, option {
     color: blue;
+    font-weight: bold;
 }

@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 .curriculum-container {
     max-width: 600px;
     height: 380px;
     display: flex;
     justify-content: center;
-    background-color: #7682b5;
+    background-color: #667ac8;
     color: white;
     padding-top: 40px;
 }
@@ -25,6 +27,12 @@ hr {
     margin-bottom: 10px; 
 }
 #download-CV {
+    color: rgb(6, 6, 84);
+    text-decoration: none;
+    font-size: 17px;
+}
+#download-CV:hover {
+    color: goldenrod;
     text-decoration: none;
     font-size: 17px;
 }

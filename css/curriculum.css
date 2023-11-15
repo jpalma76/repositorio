@@ -1,13 +1,17 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
 /* container disposicion del Main */
 .curriculum-container {
     display: flex;
     width: 100%;
     height: 270px;
     box-sizing: border-box;
-    background-image: url('../images/fondo.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+   background-color: burlywood;
     justify-content: center;
 }
 .box-download {
