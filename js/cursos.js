@@ -128,20 +128,19 @@ let cursos = [
     }
 ];
 
-let card = document.getElementById('container');
+let card = document.getElementById('certificados-container');
 
 cursos.forEach(curso => {
     let item = `
     <div class="grid-item">
         <div className="card-item">
-        <a href="${curso.url}">
-        <img class="img-cert" src="${curso.image}" alt="${curso.name}">
-            <div class="nombre-curso">
-                <p class="img-name">${curso.name}</p>
-            </div>
-        </a>
+            <a href="${curso.url}">
+            <img class="img-cert" src="${curso.image}" alt="${curso.name}">
+                <div class="nombre-curso">
+                    <p class="img-name">${curso.name}</p>
+                </div>
+            </a>
         </div>
-
     </div>
     `;
 

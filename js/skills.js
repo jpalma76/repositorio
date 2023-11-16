@@ -44,7 +44,7 @@ let cursos = [
         "url": "./img-certificados/certificaciones-vtr/trabajo_en_altura_para_la_industria_de_telecomunicaciones.png"
     }
 ];
-let card = document.getElementById('container');
+let card = document.getElementById('skill-container');
 
 cursos.forEach(curso => {
     let item = `

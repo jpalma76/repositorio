@@ -15,9 +15,12 @@
     padding-top: 40px;
 }
 .box-download {
-    width: 300px;
-    height: 270px;
-    background-color: rgb(69, 81, 168);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 330px;
+    height: 310px;
+    background-color: rgb(113, 124, 207);
     border: 2px solid white;
     border-radius: 16px;
     padding: 25px 30px;
@@ -26,16 +29,30 @@ hr {
     margin-top: 10px;
     margin-bottom: 10px; 
 }
+.curriculum {
+    width: 100%;
+    height: 40px;
+}
 #download-CV {
-    color: rgb(6, 6, 84);
+    color: blue;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 #download-CV:hover {
-    color: goldenrod;
+    color: yellow;
     text-decoration: none;
     font-size: 17px;
 }
-.curriculum p {
-    margin-bottom: 10px;
+.presentation p {
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+@media(max-width:400px) {
+    .box-download {
+        height: 270px;
+    }
 }

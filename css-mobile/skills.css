@@ -50,3 +50,15 @@
         height: 224px;
     }
 }
+
+@media(max-width:400px) {
+    .nombre-curso {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .grid-item {
+    height: 315px;
+    }
+}

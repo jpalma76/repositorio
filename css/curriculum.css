@@ -9,7 +9,7 @@
 .curriculum-container {
     display: flex;
     width: 100%;
-    height: 270px;
+    height: 300px;
     box-sizing: border-box;
    background-color: burlywood;
     justify-content: center;
@@ -19,7 +19,7 @@
     background-color: #46518e;
     color: white;
     width: 450px;
-    height: 210px;
+    height: 240px;
     border-radius: 35px;
     padding: 10px;
     margin-top: 30px;
