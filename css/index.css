@@ -13,7 +13,7 @@
     padding: 20px;
     gap: 20px;
     justify-content: space-between;
-    background-color: burlywood;
+    background-color: #667ac8;
 }
 .home-card {
     position: relative;
@@ -23,7 +23,7 @@
     align-items: center;
     border-radius: 25px;
     border: 1px solid white;
-    background-color: rgb(168, 131, 50);
+    background-color: #374786;
     opacity: .8;
     margin-left: 20px;
     padding: 35px;
@@ -66,7 +66,7 @@
     justify-content: center;
     border-radius: 25px;
     border: 1px solid white;
-    background-color: rgb(168, 131, 50);
+    background-color: #374786;
     opacity: .8;
     color: white;
 }

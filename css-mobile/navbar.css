@@ -9,7 +9,7 @@
     max-width: 600px;
     min-width: 350px;
     height:auto;
-    background-color: rgb(67, 103, 139);
+    background-color: #374786;
     margin-bottom: 20x;
     display: flex;
     padding: 7px;
@@ -29,14 +29,11 @@
     height: 60px;
     border: 1px solid;
     border-radius: 5px;
-    font-size: 18px;
+    background-color: rgb(62, 62, 172);
+    font-size: 16px;
     list-style: none;
 }
-.nav-links .item a {
-    color: white;
-    text-decoration: none;
-}
-.nav-links .item a:hover {
+.nav-links li a:hover {
     color: blue;
 }
 
@@ -44,8 +41,11 @@
     color: black;
     display: flex;
     right: 40px;
+    margin-bottom: 10px;
+
 }
 .select, option {
     color: blue;
     font-weight: bold;
 }
+
