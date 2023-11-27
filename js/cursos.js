@@ -82,46 +82,53 @@ let cursos = [
         "image": "./img-certificados/curso_php_jovenes_programadores.png",
         "url": "./img-certificados/curso_php_jovenes_programadores.png"
     },
-    /*  */
     {
         "id": 14,
+        "name": "Curso CSS - Jóvenes Programadores",
+        "image": "./img-certificados/curso_css_jovenesprogramadores.png",
+        "url": "./img-certificados/curso_css_jovenesprogramadores.png"
+    },
+
+    /*  */
+    {
+        "id": 15,
         "name": "curso npm gestion de paquetes y dependencias en javascript",
         "image": "./img-certificados/curso_npm_gestion_de_paquetes_y_dependencias_en_javascript.png",
         "url": "./img-certificados/curso_npm_gestion_de_paquetes_y_dependencias_en_javascript.png"
     },
     {
-        "id": 15,
+        "id": 16,
         "name": "curso pensamiento logico de lenguajes de programación",
         "image": "./img-certificados/curso_pensamiento_logico_lenguajes_de_programacion.png",
         "url": "./img-certificados/curso_pensamiento_logico_lenguajes_de_programacion.png"
     },
     {
-        "id": 16,
+        "id": 17,
         "name": "curso de php instalacion fundamentos y operaciones basico",
         "image": "./img-certificados/curso_php_instalacion_fundamentos_y_operaciones_basico.png",
         "url": "./img-certificados/curso_php_instalacion_fundamentos_y_operaciones_basico.png"
     },
     {
-        "id": 17,
+        "id": 18,
         "name": "curso practico de php",
         "image": "./img-certificados/curso_practico_php.png",
         "url": "./img-certificados/curso_practico_php.png"
     },
     {
-        "id": 18,
+        "id": 19,
         "name": "curso  integracion de php y html",
         "image": "./img-certificados/curso_de_integracion_de_php_con_html.png",
         "url": "./img-certificados/curso_de_integracion_de_php_con_html.png"
     },
 
     {
-        "id": 19,
+        "id": 20,
         "name": "curso prework linux: Configuracion de entorno de desarrollo en linux",
         "image": "./img-certificados/curso_prework_linux.png",
         "url": "./img-certificados/curso_prework_linux.png"
     },
     {
-        "id": 20,
+        "id": 21,
         "name": "curso prework: configuracion de entorno de desarrollo en windows",
         "image": "./img-certificados/curso_prework_windows.png",
         "url": "./img-certificados/curso_prework_windows.png"
