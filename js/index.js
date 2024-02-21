@@ -5,16 +5,14 @@ function visitar() {
     } else if(projects.value == 1) {
         window.open("https://otro-portafolio.netlify.app/", "_blank");
     } else if(projects.value == 2) {
-        window.open("https://juego-mokepon-platzi.netlify.app/", "_blank");
-    } else if(projects.value == 3) {
         window.open("https://ejercicio-de-validacion-rut-chileno.netlify.app/", "_blank");
-    } else if(projects.value == 4) {
+    } else if(projects.value == 3) {
         window.open("https://renderizado-de-peliculas.netlify.app/", "_blank");
-    } else if(projects.value == 5) {
+    } else if(projects.value == 4) {
         window.open("https://dibujando-con-canvas.netlify.app/", "_blank");
-    } else if(projects.value == 6) {
+    } else if(projects.value == 5) {
         window.open("https://proyecto-react-carrito-de-compras.netlify.app/", "_blank");
-    } else if(projects.value == 7) {
+    } else if(projects.value == 6) {
         window.open("https://github.com/jpalma76", "_blank");
     }
 }
