@@ -8,7 +8,7 @@
 .index-container{
     display: flex;
     width: 100%;
-    min-height: 320px;
+    height: 280px;
     align-items: center;
     padding: 20px;
     gap: 20px;
@@ -19,7 +19,7 @@
     position: relative;
     display: flex;
     max-width: 600px;
-    height: 300px;
+    min-height: 260px;
     align-items: center;
     border-radius: 25px;
     border: 1px solid white;
@@ -31,7 +31,6 @@
 .home-card p{
     max-width: 90%;
     text-align: justify;
-
 }
 #avatar2 {
     width: 110px;
@@ -62,7 +61,7 @@
     flex-direction: column;
     max-width: 600px;
     min-width: 400px;
-    height: 300px;
+    height: 260px;
     align-items: center;
     justify-content: center;
     border-radius: 25px;
@@ -70,6 +69,9 @@
     background-color: #374786;
     opacity: .8;
     color: white;
+}
+.home-card2 a {
+    color: darkgrey;
 }
 .home-card2 p {
     text-align: justify;

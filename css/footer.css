@@ -14,11 +14,15 @@
     align-items: center;
     background-color: #181d33;
     padding-left: 40px;
+    padding-right: 40px;
 }
 .footer-icons {
-    width: 200px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    width: 230px;
+    height: 60px;
+    margin-top: 15px;
 }
 .footer-icons li {
     padding: 0;
@@ -38,9 +42,20 @@
 }
 .footer-icons li a:hover {
     color: yellow;
-    padding: 0;
     opacity: .4;
 }
 .footer-icons li a:active {
         color: red;
+}
+.footer.contact {
+    margin-right: 30px;
+    font-size: 14px;
+}
+.email a {
+    font-size: 14px;
+    font-style: italic;
+    color: white; 
+}
+.email a:hover {
+    color: yellow; 
 }

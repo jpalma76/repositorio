@@ -45,52 +45,54 @@
             <p class="first">Portafolio </p>
             <p class="second">Desarrollador Frontend junior</p>
         </div>
+        <nav class="navbar">
+            
+            <ul class="nav-links">
+                <a href="./index.html">
+                        <li class="item">
+                        Home
+                    </li>
+                </a>
+        
+                <a href="./curriculum.html">
+                        <li class="item">
+                        Curriculum
+                    </li>
+                </a>
+        
+                <a href="./certificados.html">
+                    <li class="item">
+                        Certificados
+                    </li>
+                </a>
+        
+                <a href="./Skills.html">
+                    <li class="item">
+                        Otras Certificaciones
+                    </li>
+                </a>
+            </ul>
+    
+            <div class="select-container">
+                <div class="align-column-select-with-message">
+                    <select name="projects" id="projects" class="form-control-sm select">
+                        <option value="0">Seleccione Proyecto</option>
+                        <option value="1">Otro Portafolio</option>
+                        <option value="2">Portafolio 3</option>
+                        <option value="3">Validador Rut Chileno</option>
+                        <option value="4">ejercicio renderizado con JQuery</option>
+                        <option value="5">Dibujando en canvas con el mouse</option>
+                        <option value="6">Desafio curso React</option>
+                        <option value="7">Repositorio GitHub</option>
+                    </select>
+                    <div id="message"></div>
+                </div>
+                <input class="btn btn-success mx-2" type="button" value="Ir" onclick="visitar()">
+            </div>
+        </nav>
     </header>
     
-    <nav class="navbar">
-        <ul class="nav-links">
-            <a href="./index.html">
-                    <li class="item">
-                    Home
-                </li>
-            </a>
-    
-            <a href="./curriculum.html">
-                    <li class="item">
-                    Curriculum
-                </li>
-            </a>
-    
-            <a href="./certificados.html">
-                <li class="item">
-                    Certificados
-                </li>
-            </a>
-    
-            <a href="./Skills.html">
-                <li class="item">
-                    Otras Certificaciones
-                </li>
-            </a>
-        </ul>
-
-        <div class="select-container">
-            <select name="projects" id="projects" class="form-control-sm select">
-                <option value="0">Seleccione Proyecto</option>
-                <option value="1">Otro Portafolio</option>
-                <option value="2">Portafolio 3</option>
-                <option value="3">Validador Rut Chileno</option>
-                <option value="4">ejercicio renderizado con JQuery</option>
-                <option value="5">Dibujando en canvas con el mouse</option>
-                <option value="6">Desafio curso React</option>
-                <option value="7">Repositorio GitHub</option>
-            </select>
-            <div id="message"></div>
-            <input class="btn btn-success mx-2" type="button" value="Ir" onclick="visitar()">
-        </div>
-    </nav>
-    
-    <!-- Insercion de los cursos con JS -->
+    <!-- Inserción de los cursos con JS -->
     <main class="grid-container" id="skill-container"></main>
 
     <footer class="footer-container">
@@ -118,6 +120,10 @@
                 </a>
             </li>
         </ul>
+        
+        <div class="contact">
+            <div class="email">Email : <a href="mailto:juan.palma.alvarez@gmail.com"> juan.palma.alvarez@gmail.com</a></div>
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
