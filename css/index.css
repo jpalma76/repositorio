@@ -36,6 +36,18 @@
     color: rgb(103, 102, 102);
     text-align: center;
 }
+.links {
+    display: flex;
+    flex-direction: column;
+}
+.social {
+    color: gray;
+    text-decoration: none;
+}
+.social:hover {
+    font-size: 18px;
+    color: darkslategrey;
+}
 
 .image-container {
     width: 100%;
@@ -51,17 +63,6 @@
     border: 3px solid white;
     margin-bottom: 10px;
 }
-
-
-.link-repository, .link-portfolio {
-    color: darkslategrey;
-    text-decoration: none;
-    font-weight: bold;
-}
-.link-repository:hover, .link-portfolio:hover {
-    color: yellow;
-}
-
 
 @media(max-width:1000px) {
     .index-container{

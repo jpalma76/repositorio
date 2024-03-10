@@ -9,7 +9,7 @@ a {
 /* navbar principal */
 .navbar {
     margin: 0;
-    padding: 0;
+    padding-left: 40px;
     box-sizing: border-box;
     width: 100%;
     min-height: 60px;
@@ -21,7 +21,7 @@ a {
     align-items: center;
     justify-content: space-between;
     width: 800px;
-    height: 60px;
+    min-height: 60px;
     display: flex;
     margin: 5px;
     padding-left: 40px;
@@ -77,15 +77,16 @@ a {
     font-weight: bold;
 }
 
-@media(max-width: 1046px) {
+@media(max-width: 1280px) {
     .navbar {
         justify-content: space-evenly;
     }
     .nav-links li {
-        font-size: 14px;
+        font-size: 16px;
         transition: .3s;
         text-align: center;
     }
+
     .select-container {
         margin-bottom: 15px;
     }
@@ -101,5 +102,6 @@ a {
         transition: .3s;
         flex-direction: column;
     }
+
 
 }
