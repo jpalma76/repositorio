@@ -26,19 +26,19 @@
     <!-- VISTA MOVIL -->
     <link rel="stylesheet" href="./css-mobile/header.css" media="(max-width: 600px)">
     <link rel="stylesheet" href="./css-mobile/navbar.css" media="(max-width: 600px)">
-    <link rel="stylesheet" href="./css-mobile/index.css" media="(max-width: 600px)">
     <link rel="stylesheet" href="./css-mobile/curriculum.css" media="(max-width: 600px)">
     <link rel="stylesheet" href="./css-mobile/certificados.css" media="(max-width: 600px)">
     <link rel="stylesheet" href="./css-mobile/skills.css" media="(max-width: 600px)">
+    <link rel="stylesheet" href="./css-mobile/index.css" media="(max-width: 600px)">
     <link rel="stylesheet" href="./css-mobile/footer.css" media="(max-width: 600px)">
 
     <!-- VISTA WEB -->
     <link rel="stylesheet" href="./css/header.css" media="(min-width: 601px)">
     <link rel="stylesheet" href="./css/navbar.css" media="(min-width: 601px)">
-    <link rel="stylesheet" href="./css/index.css" media="(min-width: 601px)">
     <link rel="stylesheet" href="./css/curriculum.css" media="(min-width: 601px)">
     <link rel="stylesheet" href="./css/certificados.css" media="(min-width: 601px)">
-    <link rel="stylesheet" href="./css/certificados.css" media="(min-width: 601px)">
+    <link rel="stylesheet" href="./css/skills.css" media="(min-width: 601px)">
+    <link rel="stylesheet" href="./css/index.css" media="(min-width: 601px)">
     <link rel="stylesheet" href="./css/footer.css" media="(min-width: 601px)">
    
 </head>
@@ -52,11 +52,12 @@
             <p class="second">Desarrollador Frontend junior</p>
         </div>
     </header>
-    
+
     <nav class="navbar">
         <ul class="nav-links">
+
             <a href="./index.html">
-                    <li class="item">
+                <li class="item">
                     Home
                 </li>
             </a>
@@ -81,7 +82,7 @@
         </ul>
 
         <div class="select-container">
-            <select name="projects" id="projects" class="form-control select">
+            <select name="projects" id="projects" class="form-control-sm select">
                 <option value="0">Seleccione Proyecto</option>
                 <option value="1">Otro Portafolio</option>
                 <option value="2">Portafolio 3</option>
@@ -92,31 +93,34 @@
                 <option value="7">Repositorio GitHub</option>
             </select>
             <div id="message"></div>
-            <input class="btn btn-success-lg" type="button" id="ir" value="Ir" onclick="visitar()">
+            <input class="btn btn-success mx-2" type="button" value="Ir" onclick="visitar()">
         </div>
     </nav>
 
     <main class="curriculum-container">
 
-        <section class="box-download">
+        <div class="laterales"></div>
+
+        <div class="card-resume">
+
+                <div class="card col-xl-7 mx-auto text-center">
+                   
+                    <div class="card-body">
+                        <h4>Juan Palma Álvarez</h4>
+                        <h5>Desarrollador Frontend Junior</h5>
+                        <h5 class="text-center">Descarga mi curriculum <span><a href="">aquí</a></span></h5>
+                        
+                        <h5>Email: <a href="mailto:juan.palma.alvarez@gmail.com">juan.palma.alvarez@gmail.com</a></h5>    
+                    </div>
+                </div>
             
-             <div class="presentation">
-                 <h4>Presentación</h4>
-                 <p>Juan Palma alvarez, autodidacta</p>
-                 <p>Programador Front-end Junior</p>
-             </div>
+        </div>
 
-             <hr>
-             <div class="curriculum">
-                 <p>Descarga aqui mi Curriculum Vitae:</p>
-                 <a id="download-CV" target="_blank" href="https://mega.nz/file/z9NnkAJb#jW8_KYTlnVrGPSL-EzHhKbKao93xjFzDIjoV76yDOhk">Descargar Curriculum vitae</a>
-             </div>
-
-        </section>
+        <div class="laterales"></div>
  
-     </main>
+    </main>
 
-     <footer class="footer-container">
+    <footer class="footer-container">
         <ul class="footer-icons">
             <li>
                 <a target="_blank" href="https:///www.facebook.com">

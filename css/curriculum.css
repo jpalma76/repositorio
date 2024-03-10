@@ -5,53 +5,27 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
-/* container disposicion del Main */
 .curriculum-container {
-    display: flex;
     width: 100%;
-    height: 285px;
-    box-sizing: border-box;
-   background-color: #667ac8;
-    justify-content: center;
+    height: calc(100vh - 310px);
+    display: flex;
+    background-color: #667ac8;
 }
-.box-download {
-    box-sizing: border-box;
-    background-color: #46518e;
-    color: white;
-    width: 450px;
-    height: 240px;
-    border-radius: 35px;
-    padding: 10px;
-    margin-top: 25px;
-}
-.presentation {
-    justify-content: center;
-    width: auto;
-    height: 110px;
-    padding: 15px 40px 20px 60px;
-}
-hr {
-    margin-left: 40px;
-    margin-right: 40px;
-}
-.presentation h4 {
-    padding-bottom: 5px;
-}
-.curriculum {
-    justify-content: center;
-    width: auto;
+.laterales {
+    width: 25%;
     height: auto;
-    padding: 15px 40px 30px 60px;
 }
-.curriculum p {
-    margin-bottom: 5px;
+.card-resume {
+    width: 50%;
+    height: auto;
+    background-color: rgb(230, 205, 172);
+    color: rgb(103, 102, 102);
+    padding: 30px;
+    display: flex;
+    align-items: center;
 }
-#download-CV {
-    color: #030b61;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: bold;
-}
-#download-CV:hover {
-    color: rgb(209, 209, 62);
+.card, .card-body {
+    border: 3px double gray;
+    border-radius: 15%;
+    
 }

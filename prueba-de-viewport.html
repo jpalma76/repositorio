@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de viewport</title>
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- VISTA MOVIL -->
+    <link rel="stylesheet" href="./css-mobile/header.css" media="(max-width: 600px)">
+    <link rel="stylesheet" href="./css-mobile/navbar.css" media="(max-width: 600px)">
+    <link rel="stylesheet" href="./css-mobile/index.css" media="(max-width: 600px)">
+    <link rel="stylesheet" href="./css-mobile/footer.css" media="(max-width: 600px)">
+
+    <!-- VISTA WEB -->
+    <link rel="stylesheet" href="./css/header.css" media="(min-width: 601px)">
+    <link rel="stylesheet" href="./css/navbar.css" media="(min-width: 601px)">
+    <link rel="stylesheet" href="./css/index.css" media="(min-width: 601px)">
+    <link rel="stylesheet" href="./css/footer.css" media="(min-width: 601px)">
+
+</head>
+<body>
+    <header class="head-layout">
+        <a href="./index.html">
+            <img id="avatar" src="./images/foto-mia.jpeg" alt="avatar mio">
+        </a>
+        <div class="title-container">
+            <p class="first">Portafolio </p>
+            <p class="second">Desarrollador Frontend junior</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul class="nav-links">
+
+            <a href="./index.html">
+                <li class="item">
+                    Home
+                </li>
+            </a>
+    
+            <a href="./curriculum.html">
+                    <li class="item">
+                    Curriculum
+                </li>
+            </a>
+    
+            <a href="./certificados.html">
+                <li class="item">
+                    Certificados
+                </li>
+            </a>
+    
+            <a href="./Skills.html">
+                <li class="item">
+                    Otras Certificaciones
+                </li>
+            </a> 
+        </ul>
+
+        <div class="select-container">
+            <select name="projects" id="projects" class="form-control-sm select">
+                <option value="0">Seleccione Proyecto</option>
+                <option value="1">Otro Portafolio</option>
+                <option value="2">Portafolio 3</option>
+                <option value="3">Validador Rut Chileno</option>
+                <option value="4">ejercicio renderizado con JQuery</option>
+                <option value="5">Dibujando en canvas con el mouse</option>
+                <option value="6">Desafio curso React</option>
+                <option value="7">Repositorio GitHub</option>
+            </select>
+            <div id="message"></div>
+            <input class="btn btn-success mx-2" type="button" value="Ir" onclick="visitar()">
+        </div>
+    </nav>
+    
+</body>
+</html>

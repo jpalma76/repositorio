@@ -7,86 +7,60 @@
 }
 .index-container{
     display: flex;
-    width: 100%;
-    height: 280px;
-    align-items: center;
-    padding: 20px;
+    height: auto;
+    padding: 0 20px;
     gap: 20px;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #667ac8;
 }
+.laterales {
+    width: 25%;
+    height: auto;
+}
 .home-card {
-    position: relative;
-    display: flex;
-    max-width: 600px;
-    min-height: 260px;
-    align-items: center;
-    border-radius: 25px;
-    border: 1px solid white;
-    background-color: #374786;
-    opacity: .8;
-    margin-left: 20px;
-    padding: 35px;
-}
-.home-card p{
-    max-width: 90%;
-    text-align: justify;
-}
-#avatar2 {
-    width: 110px;
-    height: 130px;
-    border-radius: 50%;
-    border: 1px solid white;
-    margin-bottom: 10px;
+    width: 60%;
 }
 .card-body {
-    color: white;
-    margin-left: 20px;
-    width: 80%;
-}
-.card-title {
-    width: 300px;
-    font-size: 18px;
-    margin-bottom: 7px;
-    margin-right: 40px;
-
-}
-.card-text {
-    font-size: 15px;
-    margin-bottom: 5px;
-}
-
-.home-card2 {
     display: flex;
     flex-direction: column;
-    max-width: 600px;
-    min-width: 400px;
-    height: 260px;
+    width: 100%;
     align-items: center;
+    margin: 0 auto;
+    background-color: rgb(230, 205, 172);
+    color: rgb(103, 102, 102);
+    padding: 30px;
+}
+.card-body p {
+    width: 90%;
+    color: rgb(103, 102, 102);
+    text-align: center;
+}
+
+.image-container {
+    width: 100%;
+    height: 290px;
+    display: flex;
     justify-content: center;
-    border-radius: 25px;
-    border: 1px solid white;
-    background-color: #374786;
-    opacity: .8;
-    color: white;
+    align-items: center;
 }
-.home-card2 a {
-    color: darkgrey;
+#avatar2 {
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+    border: 3px solid white;
+    margin-bottom: 10px;
 }
-.home-card2 p {
-    text-align: justify;
-    font-size: 15px;
-    max-width: 80%;
 
-}
-.url-repository, .link-portfolio {
-    color: blue;
+
+.link-repository, .link-portfolio {
+    color: darkslategrey;
     text-decoration: none;
-
+    font-weight: bold;
 }
-.url-repository:hover, .link-portfolio:hover {
+.link-repository:hover, .link-portfolio:hover {
     color: yellow;
 }
+
 
 @media(max-width:1000px) {
     .index-container{

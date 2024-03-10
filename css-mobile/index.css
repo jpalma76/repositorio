@@ -9,8 +9,9 @@
     display: flex;
     flex-direction: column;
     max-width: 600px;
+    height: auto;
     background-color: #667ac8;
-    padding-left: 40px;
+    padding: 40px 0 40px 40px;
 }
 .home-card {
     display: flex;
@@ -20,7 +21,7 @@
     border-radius: 15px;
     align-items: center;
     margin-top: 30px;
-    padding: 20px 10px;
+    padding: 20px;
     background-color: rgb(140, 148, 215);
     color: white;
     justify-content: center;
@@ -31,10 +32,18 @@
     text-align: justify;
     margin: 0;
 }
-.imagen-container {
+.laterales {
+    width: 0;
+}
+.card-body {
+    width:100%;
+    height: auto;
+}
+.image-container {
     display: flex;
     width: 100%;
-    height: 95px;
+    height: 120px;
+    display: flex;
     justify-content: center;
     margin-bottom: 15px;
 }
@@ -51,25 +60,6 @@
     font-weight: bold;
     margin-left: 0;
 }
-.home-card2 {
-
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    border: 1px solid white;
-    border-radius: 15px;
-    margin-bottom: 20px;
-    align-items: center;
-    margin-top: 30px;
-    padding: 40px;
-    background-color: rgb(140, 148, 215);
-    color: white;
-}
-.home-card2 p {
-    text-align: justify;
-    margin-top: 7px;
-    font-size: 14px;
-}
 .url-repository, .link-portfolio {
     color: blue;
     text-decoration: none;
@@ -77,4 +67,7 @@
 }
 .url-repository:hover, .link-portfolio:hover {
     color: yellow;
+}
+.contact {
+    display: none;
 }

@@ -20,18 +20,22 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 230px;
+    width: 270px;
     height: 60px;
     margin-top: 15px;
 }
 .footer-icons li {
-    padding: 0;
     list-style: none;
 }
 .icon {
     border-radius: 50%;
     width: 30px;
     height: 30px;
+}
+
+.icon:hover {
+    width: 33px !important;
+    height: 33px !important;
 }
 
 .footer-icons li a {
@@ -42,6 +46,7 @@
 }
 .footer-icons li a:hover {
     color: yellow;
+   
     opacity: .4;
 }
 .footer-icons li a:active {
