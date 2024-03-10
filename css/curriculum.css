@@ -15,17 +15,33 @@
     width: 25%;
     height: auto;
 }
-.card-resume {
+.central-col {
     width: 50%;
     height: auto;
     background-color: rgb(230, 205, 172);
     color: rgb(103, 102, 102);
-    padding: 30px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
-.card, .card-body {
+.presentation {
+    text-align: center;
+    width: 400px;
+    height: 210px;
     border: 3px double gray;
-    border-radius: 15%;
-    
+    border-radius: 15px;
+    padding: 25px 40px;
+    color: #000;
+}
+.presentation p {
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+}
+.presentation p a {
+    text-decoration: none;
+    font-weight: bold;
+}
+.presentation p a:hover {
+    color: goldenrod;
 }
