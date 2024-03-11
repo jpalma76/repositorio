@@ -1,7 +1,19 @@
 function visitar() {
     var projects = document.getElementById("projects");
     if (projects.value == 0) {
-        $('#message').html("Debe seleccionar una página");
+        $('#message').html("* Debe seleccionar una página").css({
+            "color":"red", 
+            "font-weight":"bold",
+            "background-color": "white",
+            "padding": "3px 10px",
+            "border-radius": "5px"
+        });
+        setTimeout(()=> {
+            $('#message').html("").css({
+                "display":"none"
+            });
+            location.reload()
+        },3000);
     } else if(projects.value == 1) {
         window.open("https://otro-portafolio.netlify.app/", "_blank");
     } else if(projects.value == 2) {

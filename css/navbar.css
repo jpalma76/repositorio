@@ -12,7 +12,7 @@ a {
     padding-left: 40px;
     box-sizing: border-box;
     width: 100%;
-    min-height: 60px;
+    min-height: 40px;
     background-color: #374786;
     border: none;
 }
@@ -21,16 +21,14 @@ a {
     align-items: center;
     justify-content: space-between;
     width: 800px;
-    min-height: 60px;
+    min-height: 40px;
     display: flex;
     margin: 5px;
-    padding-left: 40px;
-    padding-right: 30px;
+    padding: 0 30px 0 20px;
 }
 .nav-links a {
     list-style: none;
     border-radius: 20px;
-    padding: 6px 25px;
     text-decoration: none;
 }
 .nav-links a .item {
@@ -39,40 +37,39 @@ a {
     border-radius: 25px;
 }
 .nav-links a .item:hover {
-    background-color: goldenrod;
-
+    background-color: gold;
+    opacity: .8;
 }
 
-
-/* .nav-links a li {
-    color: #fff;
-}
-.nav-links li:hover {
-    text-decoration: none;
-    color: #fff;
-    font-size: 17px;
-    background-color: rgb(219, 195, 59);
-    transition: .5s;    
-} */
-
-
-#ir {
-    width: 20px;
-    height: 20px;
-    margin-bottom: 10px;
-}
 .select-container {
     display: flex;
-    width: 400px;
+    align-items: center;
+    width: auto;
+    height: 25px;
     right: 50px;
-    margin-right: 20px;
-    /* margin-bottom: 15px; */
+    margin-right: 30px;
+    color: blue;
+    gap: 10px;
 }
+
+#ir {
+    display: flex;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+}
+#message {
+    font-size: 12px;
+    font-style: italic;
+}
+
 .align-column-select-with-message {
     display: flex;
     flex-direction: column;
 }
 .select, option {
+    text-align: center;
     color: blue;
     font-weight: bold;
 }

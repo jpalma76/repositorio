@@ -7,7 +7,7 @@
 }
 .curriculum-container {
     width: 100%;
-    height: calc(100vh - 310px);
+    height: calc(100vh - 306px);
     display: flex;
     background-color: #667ac8;
 }
@@ -30,13 +30,13 @@
     height: 210px;
     border: 3px double gray;
     border-radius: 15px;
-    padding: 25px 40px;
+    padding: 30px 40px;
     color: #000;
 }
 .presentation p {
     text-decoration: none;
     color: grey;
-    font-size: 18px;
+    font-size: 16px;
 }
 .presentation p a {
     color: darkslategrey;
