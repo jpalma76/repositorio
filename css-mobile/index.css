@@ -20,12 +20,22 @@
     border: 1px solid white;
     border-radius: 15px;
     align-items: center;
-    margin-top: 30px;
     padding: 20px;
     background-color: rgb(140, 148, 215);
     color: white;
     justify-content: center;
-    padding: 40px;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+}
+.social {
+    color: gray;
+    text-decoration: none;
+}
+.social:hover {
+    font-size: 18px;
+    color: darkslategrey;
 }
 .home-card p {
     font-size: 14px;
