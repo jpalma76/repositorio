@@ -63,10 +63,3 @@
     border: 3px solid white;
     margin-bottom: 10px;
 }
-
-@media(max-width:1000px) {
-    .index-container{
-        flex-direction: column;
-    }
-}
-

@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.navbar {
+    margin: 0;
+}
+
+.nav-links a, .item {
+    font-size: 18px;
+}
+.nav-links a, .item:hover {
+    font-size: 20px;
+}

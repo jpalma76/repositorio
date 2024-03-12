@@ -21,8 +21,8 @@
     border-radius: 15px;
     align-items: center;
     padding: 20px;
-    background-color: rgb(140, 148, 215);
-    color: white;
+    background-color: rgb(230, 205, 172);
+    color: gray;
     justify-content: center;
 }
 .links {
@@ -38,9 +38,11 @@
     color: darkslategrey;
 }
 .home-card p {
+
     font-size: 14px;
-    text-align: justify;
     margin: 0;
+    color: gray;
+
 }
 .laterales {
     width: 0;

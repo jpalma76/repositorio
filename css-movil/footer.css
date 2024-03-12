@@ -1,0 +1,47 @@
+/* VISTA MOVIL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.footer-container {
+    max-width: 600px;;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #181d33;
+    padding: 0;
+}
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.footer-icons li {
+    list-style: none;
+}
+.icon {
+    border: 2px solid #12254b;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+.footer-icons li a {
+    text-decoration: none;
+    color: white;
+    border-radius: 35px;
+    transition: .4s;
+}
+.rrfooter-iconsss li a:hover {
+    background-color: lightgrey;
+    color: yellow;
+    text-decoration: none;
+}
+.footer-icons li a:active {
+        color: red;
+}
