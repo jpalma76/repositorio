@@ -16,11 +16,11 @@
     padding-top: 40px;
 }
 .laterales {
-    width: 15%;
+    width: 0;
     height: auto;
 }
 .central-col {
-    width: 70%;
+    width: 90%;
     height: auto;
     background-color: rgb(230, 205, 172);
     color: rgb(103, 102, 102);
@@ -33,7 +33,6 @@
     text-align: center;
     width: 400px;
     height: 210px;
-    border: 3px double gray;
     border-radius: 15px;
     padding: 30px 40px;
     color: #000;
@@ -50,4 +49,7 @@
 }
 .presentation p a:hover {
     color: goldenrod;
+}
+.curriculum {
+    cursor: pointer;
 }

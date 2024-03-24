@@ -78,7 +78,9 @@ a {
     .navbar {
         justify-content: space-evenly;
     }
+
     .nav-links li {
+        width: 100%;
         font-size: 16px;
         transition: .3s;
     }
@@ -93,10 +95,18 @@ a {
         flex-direction: column;
         transition: .3s;
         justify-content: center;
+        padding-left: 0;
     }
     .nav-links {
+        width: 100%;
         transition: .3s;
         flex-direction: column;
+    }
+    .select-container {
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        margin-bottom: 20px;
     }
 
 
