@@ -8,44 +8,23 @@
 }
 .footer-container {
     width: 100%;
-    height: 60px;
+    height: 10vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
     background-color: #181d33;
     padding-left: 40px;
     padding-right: 40px;
 }
-.footer-icons {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 270px;
-    height: 60px;
-    margin-top: 15px;
-}
-.footer-icons li {
-    list-style: none;
-}
-.icon {
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-}
-
-.icon:hover {
-    width: 33px !important;
-    height: 33px !important;
-}
 
 .footer-icons li a {
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
     border-radius: 35px;
     transition: .4s;
 }
 .footer-icons li a:hover {
-    color: yellow;
+    color: darkorange;
    
     opacity: .4;
 }
