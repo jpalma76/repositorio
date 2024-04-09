@@ -68,7 +68,7 @@ a {
 }
 .nav-links a .item {
     list-style: none;
-    padding: 10px 25px;
+    padding: 10px;
     border-radius: 25px;
 }
 .nav-links a .item:hover {
@@ -291,7 +291,7 @@ p {
     border: 2px solid rgb(15, 22, 72);
     width: 260px;
     height: 260px;
-    border-radius: 3%;
+    border-radius: 15px;
     background-color: rgb(52, 59, 141);
     text-decoration: none;
     padding: 5px;
@@ -304,7 +304,7 @@ p {
 .img-cert {
     width: 245px;
     height: 170px;
-    border-radius: 3%;
+    border-radius: 15px;
 }
 /* Contenedor del combre del curso */
 .nombre-curso {
@@ -319,7 +319,7 @@ p {
     width: 236px;
     color: white;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .footer-container {
@@ -373,34 +373,39 @@ p {
         justify-content: space-around;
     }
 }
-
 @media (max-width: 700px) {
+    /* navbar */
     body {
         margin: 0;
     }
     .nav, ul, li, a {
         margin: 0;
         padding: 0;
+        height: 40px;
     }
-    .select-container {
-        padding-left: 40px;
+    .nav-links {
+        margin: 0;
     }
-
     .navbar {
-        height: 280px;
-        padding: 20px 0;
+        position: relative;
+        height: 310px;
+        padding: 0;
         flex-direction: column;
         justify-content: space-between;
+        align-items: center;
         margin: 0;
+    }
+    .title-container {
+        position: relative;
+        top: 75px;
     }
     .nav-links {
         margin: 0;
         flex-direction: column;
         width: 100%;
         height: auto;
-        background-color: #1e2f7e;
         gap: 7px;
-        padding: 10px 20px;
+        padding: 10px;
     }
     .nav-links a {
         width: 100%;
@@ -418,7 +423,22 @@ p {
     .nav-links a .item:hover {
         padding: 0;
         background: #2b48ca;
-        
+    }
+    .select-container, .select-width-message, .projects {
+        height: 30px;
+        margin: 0;
+        padding: 0;
+    }
+    .select-container {
+        position: relative;
+        bottom: 20px;
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 40px;
+        padding-top: 0;
     }
 }
 
@@ -430,6 +450,32 @@ p {
     }
 }
 
-@media (max-width: 800px) {
+/* querys vista certificados */
+@media (max-width:700px) {
 
+    .grid-container {
+        grid-template-columns: 1fr;
+        width: 100% !important;
+        padding: 20px 6px;
+    }
+    .grid-item {
+        width: 450px !important;
+        height: 380px;
+    }
+    .img-cert {
+        width: 430px;
+        height: 280px;
+        margin: 3px;
+    }
+    .nombre-curso {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-name {
+        width: 90%;
+        font-size: 16px;
+        
+    }
 }
