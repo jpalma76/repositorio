@@ -11,34 +11,7 @@
     <title>Inicio portafolio</title>
     <!-- seccion de estilos -->
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
-
-    <!-- VISTA MINIMAL DESKTOP -->
-    <link rel="stylesheet" href="./css-minimal-desktop/header.css" media="(max-width: 600px)" />
-    <link rel="stylesheet" href="./css-minimal-desktop/navbar.css" media="(max-width: 600px)" />
-    <link rel="stylesheet" href="./css-minimal-desktop/curriculum.css" media="(max-width: 600px)" />
-    <link rel="stylesheet" href="./css-minimal-desktop/certificados.css" media="(max-width: 600px)" />
-    <link rel="stylesheet" href="./css-minimal-desktop/skills.css" media="(max-width: 600px)" />
-    <link rel="stylesheet" href="./css-minimal-desktop/index.css" media="(max-width: 600px)" />
-    <link rel="stylesheet" href="./css-minimal-desktop/footer.css" media="(max-width: 600px)" />
-
-    <!-- VISTA MOVIL -->
-    <link rel="stylesheet" href="./css-movil/header.css" media="(max-width: 400px)" />
-    <link rel="stylesheet" href="./css-movil/navbar.css" media="(max-width: 400px)" />
-    <link rel="stylesheet" href="./css-movil/curriculum.css" media="(max-width: 400px)" />
-    <link rel="stylesheet" href="./css-movil/certificados.css" media="(max-width: 400px)" />
-    <link rel="stylesheet" href="./css-movil/skills.css" media="(max-width: 400px)" />
-    <link rel="stylesheet" href="./css-movil/index.css" media="(max-width: 400px)" />
-    <link rel="stylesheet" href="./css-movil/footer.css" media="(max-width: 400px)" />
-
-    <!-- VISTA WEB -->
-    <link rel="stylesheet" href="./css/header.css" media="(min-width: 601px)" />
-    <link rel="stylesheet" href="./css/navbar.css" media="(min-width: 601px)" />
-    <link rel="stylesheet" href="./css/curriculum.css" media="(min-width: 601px)" />
-    <link rel="stylesheet" href="./css/certificados.css" media="(min-width: 601px)" />
-    <link rel="stylesheet" href="./css/skills.css" media="(min-width: 601px)" />
-    <link rel="stylesheet" href="./css/index.css" media="(min-width: 601px)" />
-    <link rel="stylesheet" href="./css/footer.css" media="(min-width: 601px)" />
-
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -55,23 +28,33 @@
     </nav>
     <!-- navbar -->
     <nav class="navbar">
+        
         <ul class="nav-links">
             <a href="./index.html">
-                <li class="item">Home</li>
+                <li class="item">
+                    Home
+                </li>
             </a>
 
             <a href="./curriculum.html">
-                <li class="item">Curriculum</li>
+                <li class="item">
+                    Curriculum
+                </li>
             </a>
 
             <a href="./certificados.html">
-                <li class="item">Certificados</li>
+                <li class="item">
+                    Certificados
+                </li>
             </a>
 
             <a href="./Skills.html">
-                <li class="item">Otras Certificaciones</li>
+                <li class="item">
+                    Otras Certificaciones
+                </li>
             </a>
         </ul>
+
         <!-- menu desplegable del navbar -->
         <div class="select-container">
             <div class="select-with-message">
@@ -87,7 +70,6 @@
                 </select>
                 <div id="message"></div>
             </div>
-
             <button class="btn btn-success btn-md" type="button" onclick="visitar()">
                 Ir
             </button>
@@ -183,29 +165,54 @@
 
                 <section class="my-3 contacto">
                     <h3 class="my-3 text-dark subtitle-skills">Mis Datos de Contacto son:</h3>
+                    <!-- ICONOS DE CONTACTO -->
                     <ul class="links">
+                        <!-- LINKEDIN -->
                         <li>
-                            <a href="https://github.com/jpalma76" target="_blank" rel="noopener noreferrer">
-                                <img src="./rrss/github.svg" alt="Icono de Instagram" class="icon-social text-dark">
+                            <a href="https://www.linkedin.com/in/juan-palma-alvarez/" target="_blank" rel="noopener noreferrer">
+                                <img src="./rrss/linkedin.svg" alt="Icono de LinkedIn" class="icon-social text-dark">
                             </a>
                         </li>
+                        <!-- TWITTER -->
+                        <li>
+                            <a href="https://twitter.com/JPALMA76" target="_blank" rel="noopener noreferrer">
+                                <img src="./rrss/x.svg" alt="Icono de twitter" class="icon-social text-dark">
+                            </a>
+                        </li>
+                        <!-- GITHUB -->
+                        <li>
+                            <a href="https://github.com/jpalma76" target="_blank" rel="noopener noreferrer">
+                                <img src="./rrss/github.svg" alt="Icono de GitHub" class="icon-social text-dark">
+                            </a>
+                        </li>
+                        <!-- INSTAGRAM -->
+                        <li>
+                            <a href="https://www.instagram.com/jpalma76" target="_blank" rel="noopener noreferrer">
+                                <img src="./rrss/instagram.svg" alt="Icono de Instagram" class="icon-social text-dark">
+                            </a>
+                        </li>
+                        <!-- GMAIL -->
                         <li>
                             <a href="mailto:juan.palma.alvarez@gmail.com" target="_blank" rel="noopener noreferrer">
                                 <img src="./rrss/gmail.svg" alt="Icono de Gmail" class="icon-social text-dark">
                             </a>
                         </li>
                     </ul>
-                <div class="contacto">
-                    <a href="https://www.linkedin.com/in/juan-palma-alvarez/" target="_blank" rel="noopener noreferrer">
-                        linkedIn.com/juan-palma-alvarez
-                    </a>
-                    <a href="https://www.instagram.com/jpalma76/" target="_blank" rel="noopener noreferrer">
-                        instagram.com/JPALMA76
-                    </a>
-                    <a href="https://twitter.com/JPALMA76" target="_blank" rel="noopener noreferrer">
-                        twitter.com/JPALMA76
-                    </a>
-                </div>
+                    <!-- LINKS DE CONTACTO -->
+                    <div class="contacto">
+                        <a href="https://www.linkedin.com/in/juan-palma-alvarez/" target="_blank" rel="noopener noreferrer">
+                            linkedIn.com/juan-palma-alvarez
+                        </a>
+                        <a href="https://twitter.com/JPALMA76" target="_blank" rel="noopener noreferrer">
+                            twitter.com/JPALMA76
+                        </a>
+                        <a href="https://www.instagram.com/jpalma76/" target="_blank" rel="noopener noreferrer">
+                            instagram.com/JPALMA76
+                        </a>
+                        <a href="https://github.com/jpalma76" target="_blank" rel="noopener noreferrer">
+                            Github.com/JPALMA76
+                        </a>
+                    </div>
                 </section>
             </div>
         </section>
