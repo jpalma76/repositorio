@@ -21,90 +21,86 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <title>Inicio portafolio</title>
-    <!-- seccion de estilos -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
     <!-- VISTA MINIMAL DESKTOP -->
-    <link rel="stylesheet" href="./css-minimal-desktop/header.css" media="(max-width: 600px)">
-    <link rel="stylesheet" href="./css-minimal-desktop/navbar.css" media="(max-width: 600px)">
-    <link rel="stylesheet" href="./css-minimal-desktop/curriculum.css" media="(max-width: 600px)">
-    <link rel="stylesheet" href="./css-minimal-desktop/certificados.css" media="(max-width: 600px)">
-    <link rel="stylesheet" href="./css-minimal-desktop/skills.css" media="(max-width: 600px)">
-    <link rel="stylesheet" href="./css-minimal-desktop/index.css" media="(max-width: 600px)">
-    <link rel="stylesheet" href="./css-minimal-desktop/footer.css" media="(max-width: 600px)">
+    <link rel="stylesheet" href="./css-minimal-desktop/header.css" media="(max-width: 600px)" />
+    <link rel="stylesheet" href="./css-minimal-desktop/navbar.css" media="(max-width: 600px)" />
+    <link rel="stylesheet" href="./css-minimal-desktop/curriculum.css" media="(max-width: 600px)" />
+    <link rel="stylesheet" href="./css-minimal-desktop/certificados.css" media="(max-width: 600px)" />
+    <link rel="stylesheet" href="./css-minimal-desktop/skills.css" media="(max-width: 600px)" />
+    <link rel="stylesheet" href="./css-minimal-desktop/index.css" media="(max-width: 600px)" />
+    <link rel="stylesheet" href="./css-minimal-desktop/footer.css" media="(max-width: 600px)" />
 
     <!-- VISTA MOVIL -->
-    <link rel="stylesheet" href="./css-movil/header.css" media="(max-width: 400px)">
-    <link rel="stylesheet" href="./css-movil/navbar.css" media="(max-width: 400px)">
-    <link rel="stylesheet" href="./css-movil/curriculum.css" media="(max-width: 400px)">
-    <link rel="stylesheet" href="./css-movil/certificados.css" media="(max-width: 400px)">
-    <link rel="stylesheet" href="./css-movil/skills.css" media="(max-width: 400px)">
-    <link rel="stylesheet" href="./css-movil/index.css" media="(max-width: 400px)">
-    <link rel="stylesheet" href="./css-movil/footer.css" media="(max-width: 400px)">
+    <link rel="stylesheet" href="./css-movil/header.css" media="(max-width: 400px)" />
+    <link rel="stylesheet" href="./css-movil/navbar.css" media="(max-width: 400px)" />
+    <link rel="stylesheet" href="./css-movil/curriculum.css" media="(max-width: 400px)" />
+    <link rel="stylesheet" href="./css-movil/certificados.css" media="(max-width: 400px)" />
+    <link rel="stylesheet" href="./css-movil/skills.css" media="(max-width: 400px)" />
+    <link rel="stylesheet" href="./css-movil/index.css" media="(max-width: 400px)" />
+    <link rel="stylesheet" href="./css-movil/footer.css" media="(max-width: 400px)" />
 
     <!-- VISTA WEB -->
-    <link rel="stylesheet" href="./css/header.css" media="(min-width: 601px)">
-    <link rel="stylesheet" href="./css/navbar.css" media="(min-width: 601px)">
-    <link rel="stylesheet" href="./css/curriculum.css" media="(min-width: 601px)">
-    <link rel="stylesheet" href="./css/certificados.css" media="(min-width: 601px)">
-    <link rel="stylesheet" href="./css/skills.css" media="(min-width: 601px)">
-    <link rel="stylesheet" href="./css/index.css" media="(min-width: 601px)">
-    <link rel="stylesheet" href="./css/footer.css" media="(min-width: 601px)">
+    <link rel="stylesheet" href="./css/header.css" media="(min-width: 901px)" />
+    <link rel="stylesheet" href="./css/navbar.css" media="(min-width: 901px)" />
+    <link rel="stylesheet" href="./css/curriculum.css" media="(min-width: 901px)" />
+    <link rel="stylesheet" href="./css/certificados.css" media="(min-width: 901px)" />
+    <link rel="stylesheet" href="./css/skills.css" media="(min-width: 901px)" />
+    <link rel="stylesheet" href="./css/index.css" media="(min-width: 901px)" />
+    <link rel="stylesheet" href="./css/footer.css" media="(min-width: 901px)" />
    
 </head>
 <body>
-    <header class="head-layout">
-
+    <!-- HEADER -->
+    <nav class="head-layout">
         <a href="./index.html">
-            <img id="avatar" src="./images/avatar.jpg" alt="avatar mio">
+            <img id="avatar" src="./images/avatar.jpg" alt="avatar mio" />
         </a>
 
         <div class="title-container">
-            <p class="first">Portafolio </p>
-            <p class="second">Desarrollador Frontend Junior</p>
+            <p class="first">Portafolio</p>
+            <p class="second">Desarrollador Frontend junior</p>
         </div>
-    </header>
-
+    </nav>
+    <!-- navbar -->
     <nav class="navbar">
         <ul class="nav-links">
-
             <a href="./index.html">
-                <li class="item">
-                    Home
-                </li>
+                <li class="item">Home</li>
             </a>
-    
+
             <a href="./curriculum.html">
-                    <li class="item">
-                    Currículum
-                </li>
+                <li class="item">Curriculum</li>
             </a>
-    
+
             <a href="./certificados.html">
-                <li class="item">
-                    Certificados
-                </li>
+                <li class="item">Certificados</li>
             </a>
-    
+
             <a href="./Skills.html">
-                <li class="item">
-                    Otras Certificaciones
-                </li>
-            </a> 
+                <li class="item">Otras Certificaciones</li>
+            </a>
         </ul>
 
         <div class="select-container">
-            <select name="projects" id="projects" class="form-control-sm select">
-                <option value="0">Seleccione Proyecto</option>
-                <option value="1">Otro Portafolio</option>
-                <option value="2">Portafolio 3</option>
-                <option value="3">Validador Rut Chileno</option>
-                <option value="4">ejercicio renderizado con JQuery</option>
-                <option value="5">Dibujando en canvas con el mouse</option>
-                <option value="6">Desafio curso React</option>
-                <option value="7">Repositorio GitHub</option>
-            </select>
-            <div id="message"></div>
-            <input class="btn btn-success mx-2" type="button" value="Ir" onclick="visitar()">
+            <div class="select-with-message">
+                <select name="projects" id="projects" class="form-control select">
+                    <option value="0">Seleccione Proyecto</option>
+                    <option value="1">Otro Portafolio</option>
+                    <option value="2">Portafolio 3</option>
+                    <option value="3">Validador Rut Chileno</option>
+                    <option value="4">ejercicio renderizado con JQuery</option>
+                    <option value="5">Dibujando en canvas con el mouse</option>
+                    <option value="6">Desafio curso React</option>
+                    <option value="7">Repositorio GitHub</option>
+                </select>
+                <div id="message"></div>
+            </div>
+
+            <button class="btn btn-success btn-md" type="button" onclick="visitar()">
+                Ir
+            </button>
         </div>
     </nav>
 
@@ -118,7 +114,6 @@
                 <h5>Juan Palma Álvarez</h5>
                 <h6>Desarrollador Frontend Junior</h6>
                 <p class="text-center">Descarga mi currículum <span><a class="curriculum" target="_blank" href="https://mega.nz/file/z9NnkAJb#jW8_KYTlnVrGPSL-EzHhKbKao93xjFzDIjoV76yDOhk">aquí</a></span></p>
-                
                 <p>Email: <a href="mailto:juan.palma.alvarez@gmail.com">juan.palma.alvarez@gmail.com</a></p>    
             </div>
             
@@ -129,33 +124,13 @@
     </main>
 
     <footer class="footer-container">
-        <ul class="footer-icons">
-            <li>
-                <a target="_blank" href="https:///www.facebook.com">
-                    <img class="icon" src="./images/iconfacebook.svg" alt="">
-                </a>
-            </li>
-
-            <li>
-                <a target="_blank" href="https:///www.twitter.com">
-                    <img class="icon" src="./images/icontwitter.svg" alt="">
-                </a>
-            </li>
-
-            <li>
-                <a target="_blank" href="https:///www.instagram.com">
-                    <img class="icon" src="./images/instagram-logo.svg" alt="">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https:///www.youtube.com">
-                    <img class="icon" src="./images/iconyoutube.svg" alt="">
-                </a>
-            </li>
-        </ul>
         
         <div class="contact">
-            <div class="email">Email : <a href="mailto:juan.palma.alvarez@gmail.com"> juan.palma.alvarez@gmail.com</a></div>
+            <div class="email">
+                Contacto:
+                <a href="mailto:juan.palma.alvarez@gmail.com">
+                    juan.palma.alvarez@gmail.com</a>
+            </div>
         </div>
     </footer>
      

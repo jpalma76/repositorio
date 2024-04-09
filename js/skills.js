@@ -50,7 +50,7 @@ cursos.forEach(curso => {
     let item = `
     <div class="grid-item">
         <div className="card-item">
-            <a href="${curso.url}">
+            <a href="${curso.url}"  target="_blank" rel="noopener noreferrer">
             <img class="img-cert" src="${curso.image}" alt="${curso.name}">
                 <div class="nombre-curso">
                     <p class="img-name">${curso.name}</p>

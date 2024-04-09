@@ -1,101 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     <title>Inicio portafolio</title>
     <!-- seccion de estilos -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
     <!-- VISTA MINIMAL DESKTOP -->
-    <link rel="stylesheet" href="./css-minimal-desktop/header.css" media="(max-width: 600px)">
-    <link rel="stylesheet" href="./css-minimal-desktop/navbar.css" media="(max-width: 600px)">
-    <link rel="stylesheet" href="./css-minimal-desktop/curriculum.css" media="(max-width: 600px)">
-    <link rel="stylesheet" href="./css-minimal-desktop/certificados.css" media="(max-width: 600px)">
-    <link rel="stylesheet" href="./css-minimal-desktop/skills.css" media="(max-width: 600px)">
-    <link rel="stylesheet" href="./css-minimal-desktop/index.css" media="(max-width: 600px)">
-    <link rel="stylesheet" href="./css-minimal-desktop/footer.css" media="(max-width: 600px)">
+    <link rel="stylesheet" href="./css-minimal-desktop/header.css" media="(max-width: 600px)" />
+    <link rel="stylesheet" href="./css-minimal-desktop/navbar.css" media="(max-width: 600px)" />
+    <link rel="stylesheet" href="./css-minimal-desktop/curriculum.css" media="(max-width: 600px)" />
+    <link rel="stylesheet" href="./css-minimal-desktop/certificados.css" media="(max-width: 600px)" />
+    <link rel="stylesheet" href="./css-minimal-desktop/skills.css" media="(max-width: 600px)" />
+    <link rel="stylesheet" href="./css-minimal-desktop/index.css" media="(max-width: 600px)" />
+    <link rel="stylesheet" href="./css-minimal-desktop/footer.css" media="(max-width: 600px)" />
 
     <!-- VISTA MOVIL -->
-    <link rel="stylesheet" href="./css-movil/header.css" media="(max-width: 400px)">
-    <link rel="stylesheet" href="./css-movil/navbar.css" media="(max-width: 400px)">
-    <link rel="stylesheet" href="./css-movil/curriculum.css" media="(max-width: 400px)">
-    <link rel="stylesheet" href="./css-movil/certificados.css" media="(max-width: 400px)">
-    <link rel="stylesheet" href="./css-movil/skills.css" media="(max-width: 400px)">
-    <link rel="stylesheet" href="./css-movil/index.css" media="(max-width: 400px)">
-    <link rel="stylesheet" href="./css-movil/footer.css" media="(max-width: 400px)">
+    <link rel="stylesheet" href="./css-movil/header.css" media="(max-width: 400px)" />
+    <link rel="stylesheet" href="./css-movil/navbar.css" media="(max-width: 400px)" />
+    <link rel="stylesheet" href="./css-movil/curriculum.css" media="(max-width: 400px)" />
+    <link rel="stylesheet" href="./css-movil/certificados.css" media="(max-width: 400px)" />
+    <link rel="stylesheet" href="./css-movil/skills.css" media="(max-width: 400px)" />
+    <link rel="stylesheet" href="./css-movil/index.css" media="(max-width: 400px)" />
+    <link rel="stylesheet" href="./css-movil/footer.css" media="(max-width: 400px)" />
 
     <!-- VISTA WEB -->
-    <link rel="stylesheet" href="./css/header.css" media="(min-width: 601px)">
-    <link rel="stylesheet" href="./css/navbar.css" media="(min-width: 601px)">
-    <link rel="stylesheet" href="./css/curriculum.css" media="(min-width: 601px)">
-    <link rel="stylesheet" href="./css/certificados.css" media="(min-width: 601px)">
-    <link rel="stylesheet" href="./css/skills.css" media="(min-width: 601px)">
-    <link rel="stylesheet" href="./css/index.css" media="(min-width: 601px)">
-    <link rel="stylesheet" href="./css/footer.css" media="(min-width: 601px)">
-
+    <link rel="stylesheet" href="./css/header.css" media="(min-width: 601px)" />
+    <link rel="stylesheet" href="./css/navbar.css" media="(min-width: 601px)" />
+    <link rel="stylesheet" href="./css/curriculum.css" media="(min-width: 601px)" />
+    <link rel="stylesheet" href="./css/certificados.css" media="(min-width: 601px)" />
+    <link rel="stylesheet" href="./css/skills.css" media="(min-width: 601px)" />
+    <link rel="stylesheet" href="./css/index.css" media="(min-width: 601px)" />
+    <link rel="stylesheet" href="./css/footer.css" media="(min-width: 601px)" />
 
 </head>
-<body>
 
-    <header class="head-layout">
-        
+<body>
+    <!-- HEADER -->
+    <nav class="head-layout">
         <a href="./index.html">
-            <img id="avatar" src="./images/avatar.jpg" alt="avatar mio">
+            <img id="avatar" src="./images/avatar.jpg" alt="avatar mio" />
         </a>
 
         <div class="title-container">
-            <p class="first">Portafolio </p>
+            <p class="first">Portafolio</p>
             <p class="second">Desarrollador Frontend junior</p>
         </div>
-    </header>
-
+    </nav>
     <!-- navbar -->
     <nav class="navbar">
         <ul class="nav-links">
-
             <a href="./index.html">
-                <li class="item">
-                    Home
-                </li>
+                <li class="item">Home</li>
             </a>
-    
-            <a href="./curriculum.html">
-                <li class="item">
-                    Curriculum
-                </li>
-            </a>
-    
-            <a href="./certificados.html">
-                <li class="item">
-                    Certificados
-                </li>
-            </a>
-    
-            <a href="./Skills.html">
-                <li class="item">
-                    Otras Certificaciones
-                </li>
-            </a> 
-        </ul>
 
+            <a href="./curriculum.html">
+                <li class="item">Curriculum</li>
+            </a>
+
+            <a href="./certificados.html">
+                <li class="item">Certificados</li>
+            </a>
+
+            <a href="./Skills.html">
+                <li class="item">Otras Certificaciones</li>
+            </a>
+        </ul>
+        <!-- menu desplegable del navbar -->
         <div class="select-container">
             <div class="select-with-message">
                 <select name="projects" id="projects" class="form-control select">
@@ -109,85 +86,161 @@
                     <option value="7">Repositorio GitHub</option>
                 </select>
                 <div id="message"></div>
-                
             </div>
 
-            <button class="btn btn-success btn-md" type="button" onclick="visitar()">Ir</button>
+            <button class="btn btn-success btn-md" type="button" onclick="visitar()">
+                Ir
+            </button>
         </div>
     </nav>
 
     <div class="index-container">
 
-        <section class="laterales"></section>
-
         <section class="home-card">
-
             <div class="card-body text-center">
                 <picture class="image-container">
-                    <img id="avatar2" src="./images/foto-mia.jpeg" alt="">
+                    <img id="avatar2" src="./images/foto-mia.jpeg" alt="" />
                 </picture>
 
                 <h3 class="card-title">Juan Palma Alvarez</h3>
                 <h5 class="card-text">Programador Web Junior</h5>
-                <p>Soy programador web junior en constante aprendizaje, soy Front-end, pero me encuentro estudiando para ser FullStack, los cursos que he realizado se van agregando en la pestaña Certificados.</p>
+                <p>
+                    Soy desarrollador Frontend sin experiencia laboral, pero he realizado varios proyectos sacados de Youtube, proyectos personales y los realizados en los diferentes cursos de desarrollo web que he realizado, adquiriendo la experiencia necesaria para poder cumplir con los requisitos para ser un buen desarrollador.
+                </p>
+                <p>
+                    Actualmente me encuentro buscando trabajo como Desarrollador Frontend.
+                </p>
 
-                <section class="my-4 ">
-                    <h3 class="my-3 text-dark">Redes sociales.</h3>
-                    <div class="links">
-                        <a class="social my-2" target="_blank" href="https://www.linkedin.com/in/juan-palma-alvarez/">Linkedin</a>
-                        <a class="social my-2" target="_blank" href="https://twitter.com/JPALMA76">Twitter</a>
-                        <a class="social my-2" target="_blank" href="https://www.instagram.com/jpalma76">Instagram</a>
-                        <a class="social my-2" target="_blank" href="https://github.com/jpalma76">GitHub</a>
-                    </div>
+                <h3 class="subtitle-skills">Mis skills son:</h3>
+                
+                <section class="section-skills">
+                    <span class="span-skill">
+                        <img class="icono" src="./Icons/Html.svg" alt="icono de html">
+                        HTML
+                    </span>
+
+                    <span class="span-skill">
+                        <img class="icono" src="./Icons/CSS3.svg" alt="icono de html">
+                        CSS
+                    </span>
+
+                    <span class="span-skill">
+                        <img class="icono" src="./Icons/Javascript.svg" alt="icono de html">
+                        JAVASCRIPT
+                    </span>
+
+                    <span class="span-skill">
+                        <img class="icono" src="./Icons/react.svg" alt="icono de html">
+                        REACTJS
+                    </span>
+
+                    <span class="span-skill">
+                        <img class="icono" src="./Icons/astro.svg" alt="icono de html">
+                        ASTRO
+                    </span>
+
+                    <span class="span-skill">
+                        <img class="icono" src="./Icons/tailwind.svg" alt="icono de html">
+                        TAILWIND
+                    </span>
+
+                    <span class="span-skill">
+                        <img class="icono" src="./Icons/bootstrap.svg" alt="icono de html">
+                        BOOTSTRAP
+                    </span>
+
+                    <span class="span-skill">
+                        <img class="icono" src="./Icons/git.svg" alt="icono de html">
+                        GIT
+                    </span>
+
+                    <span class="span-skill">
+                        <img class="icono" src="./Icons/github.svg" alt="icono de html">
+                        GITHUB
+                    </span>
+
+                    <span class="span-skill">
+                        <img class="icono" src="./Icons/nodejs.svg" alt="icono de html">
+                        NODE
+                    </span>
+
+                    <span class="span-skill">
+                        <img class="icono" src="./Icons/express.svg" alt="icono de html">
+                        EXPRESS
+                    </span>
+
+                    <span class="span-skill">
+                        <img class="icono" src="./Icons/php.svg" alt="icono de html">
+                        PHP
+                    </span>
+
+                    <span class="span-skill">
+                        <img class="icono" src="./Icons/mysql.svg" alt="icono de html">
+                        MYSQL
+                    </span>
+
                 </section>
 
-                <h3 class="my-3 text-dark">Skills.</h3>
-
-                <p> React - NodeJS - Express - Multer -  HTML - CSS - Javascript - JQUERY - AJAX - Renderizado con Fetch - Map - Resposive design - movile-first - Flex y CSS Grid - PHP, Creación de Crud, Bases de datos MYSQL, PostgreSQL- terminal linux y consola de Windows, Git y GitHub</p>
+                <section class="my-3 contacto">
+                    <h3 class="my-3 text-dark subtitle-skills">Mis Datos de Contacto son:</h3>
+                    <ul class="links">
+                        <li>
+                            <a href="https://www.linkedin.com/in/juan-palma-alvarez/" target="_blank" rel="noopener noreferrer">
+                                <img class="icon-social" src="./rrss/linkedin.svg" alt="Icono de LinkedIn">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/JPALMA76" target="_blank" rel="noopener noreferrer">
+                                <img src="./rrss/x.svg" alt="Icono de Twitter" class="icon-social text-dark">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/jpalma76/" target="_blank" rel="noopener noreferrer">
+                                <img src="./rrss/instagram.svg" alt="Icono de Instagram" class="icon-social text-dark">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/jpalma76" target="_blank" rel="noopener noreferrer">
+                                <img src="./rrss/github.svg" alt="Icono de Instagram" class="icon-social text-dark">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:juan.palma.alvarez@gmail.com" target="_blank" rel="noopener noreferrer">
+                                <img src="./rrss/gmail.svg" alt="Icono de Gmail" class="icon-social text-dark">
+                            </a>
+                        </li>
+                    </ul>
+                <div class="contacto">
+                    <a href="https://www.linkedin.com/in/juan-palma-alvarez/" target="_blank" rel="noopener noreferrer">
+                        linkedIn.com/juan-palma-alvarez
+                    </a>
+                    <a href="https://www.instagram.com/jpalma76/" target="_blank" rel="noopener noreferrer">
+                        instagram.com/JPALMA76
+                    </a>
+                    <a href="https://twitter.com/JPALMA76" target="_blank" rel="noopener noreferrer">
+                        twitter.com/JPALMA76
+                    </a>
+                </div>
+                </section>
             </div>
-
         </section>
 
-        <section class="laterales"></section>
-
-
     </div>
-    
 
     <footer class="footer-container">
-        <ul class="footer-icons">
-            <li>
-                <a target="_blank" href="https:///www.facebook.com">
-                    <img class="icon" src="./images/iconfacebook.svg" alt="">
-                </a>
-            </li>
-
-            <li>
-                <a target="_blank" href="https:///www.twitter.com">
-                    <img class="icon" src="./images/icontwitter.svg" alt="">
-                </a>
-            </li>
-
-            <li>
-                <a target="_blank" href="https:///www.instagram.com">
-                    <img class="icon" src="./images/instagram-logo.svg" alt="">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https:///www.youtube.com">
-                    <img class="icon" src="./images/iconyoutube.svg" alt="">
-                </a>
-            </li>
-        </ul>
-
+        
         <div class="contact">
-            <div class="email">Email: <a href="mailto:juan.palma.alvarez@gmail.com"> juan.palma.alvarez@gmail.com</a></div>
+            <div class="email">
+                Contacto:
+                <a href="mailto:juan.palma.alvarez@gmail.com">
+                    juan.palma.alvarez@gmail.com</a>
+            </div>
         </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="./js/cursos.js"></script>
     <script src="./js/index.js"></script>
-
 </body>
+
 </html>
