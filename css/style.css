@@ -226,7 +226,7 @@ a {
     transition-duration: 0.2s;
 }
 
-/* section curriculum */
+/* SECTION CURRICULUM */
 .curriculum-container {
     width: 100%;
     display: flex;
@@ -245,8 +245,7 @@ a {
     margin: 0 auto;
 }
 .presentation {
-    width: 75%;
-    max-width: 400px;
+    width: 350px;
     height: 210px;
     border-radius: 15px;
     padding: 30px 40px;
@@ -373,7 +372,7 @@ p {
         justify-content: space-around;
     }
 }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     /* navbar */
     body {
         margin: 0;
@@ -440,6 +439,9 @@ p {
         padding-left: 40px;
         padding-top: 0;
     }
+    .presentation {
+        width: 380px;
+    }
 }
 
 /* querys del curriculum */
@@ -477,5 +479,34 @@ p {
         width: 90%;
         font-size: 16px;
         
+    }
+}
+@media(max-width: 450px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .curriculum-container {
+        margin: 0;
+        padding: 0;
+        box-sizing: content-box;
+    }
+    .central-col {
+        padding: 0;
+        display: flex;
+        justify-content: left;
+        padding: 10px;
+    }
+    .presentation {
+        width: 330px;
+        padding-left: 20px;
+        text-align: center;
+        margin-left:6px;
+    }
+    .select-container {
+        padding-left: 70px;
+    }
+    .contact {
+        text-align: center;
     }
 }
