@@ -65,7 +65,7 @@
                     <option value="3">Validador Rut Chileno</option>
                     <option value="4">ejercicio renderizado con JQuery</option>
                     <option value="5">Dibujando en canvas con el mouse</option>
-                    <option value="6">Desafio curso React</option>
+                    <option value="6">Carrito de compras con React</option>
                     <option value="7">Repositorio GitHub</option>
                 </select>
                 <div id="message"></div>
@@ -80,88 +80,140 @@
 
         <section class="home-card">
             <div class="card-body text-center">
-                <h3>Sobre mí</h3>
-                <picture class="image-container">
-                    <img id="avatar2" src="./images/foto-mia.jpeg" alt="" />
-                </picture>
+                <!-- SECTION ABOUT ME -->
+                <section id="about-me">
+                    <h3>Sobre mí</h3>
+                    <picture class="image-container">
+                        <img id="avatar2" src="./images/foto-mia.jpeg" alt="" />
+                    </picture>
+    
+                    <h5 class="card-title">Juan Palma Alvarez</h5>
+                    <h6 class="card-text">Programador Web Junior</h6>
+                    <p>
+                        Soy desarrollador Frontend sin experiencia laboral, pero he realizado varios proyectos sacados de Youtube, proyectos personales y los realizados en los diferentes cursos de desarrollo web que he realizado, adquiriendo la experiencia necesaria para poder cumplir con los requisitos para ser un buen desarrollador.
+                    </p>
+                    <p>
+                        Actualmente me encuentro buscando trabajo como Desarrollador Frontend.
+                    </p>
+                </section>
 
-                <h4 class="card-title">Juan Palma Alvarez</h4>
-                <h6 class="card-text">Programador Web Junior</h6>
-                <p>
-                    Soy desarrollador Frontend sin experiencia laboral, pero he realizado varios proyectos sacados de Youtube, proyectos personales y los realizados en los diferentes cursos de desarrollo web que he realizado, adquiriendo la experiencia necesaria para poder cumplir con los requisitos para ser un buen desarrollador.
-                </p>
-                <p>
-                    Actualmente me encuentro buscando trabajo como Desarrollador Frontend.
-                </p>
+                <!-- SECTION SKILLS -->
+                <section>
+                    <h3 class="subtitle-skills">Mis skills son:</h3>
+                    <article class="section-skills">
+                        <span class="span-skill">
+                            <img class="icono" src="./Icons/Html.svg" alt="icono de html">
+                            HTML
+                        </span>
+    
+                        <span class="span-skill">
+                            <img class="icono" src="./Icons/CSS3.svg" alt="icono de html">
+                            CSS
+                        </span>
+    
+                        <span class="span-skill">
+                            <img class="icono" src="./Icons/Javascript.svg" alt="icono de html">
+                            JAVASCRIPT
+                        </span>
+    
+                        <span class="span-skill">
+                            <img class="icono" src="./Icons/react.svg" alt="icono de html">
+                            REACTJS
+                        </span>
+    
+                        <span class="span-skill">
+                            <img class="icono" src="./Icons/astro.svg" alt="icono de html">
+                            ASTRO
+                        </span>
+    
+                        <span class="span-skill">
+                            <img class="icono" src="./Icons/tailwind.svg" alt="icono de html">
+                            TAILWIND
+                        </span>
+    
+                        <span class="span-skill">
+                            <img class="icono" src="./Icons/bootstrap.svg" alt="icono de html">
+                            BOOTSTRAP
+                        </span>
+    
+                        <span class="span-skill">
+                            <img class="icono" src="./Icons/git.svg" alt="icono de html">
+                            GIT
+                        </span>
+    
+                        <span class="span-skill">
+                            <img class="icono" src="./Icons/github.svg" alt="icono de html">
+                            GITHUB
+                        </span>
+    
+                        <span class="span-skill">
+                            <img class="icono" src="./Icons/nodejs.svg" alt="icono de html">
+                            NODE
+                        </span>
+    
+                        <span class="span-skill">
+                            <img class="icono" src="./Icons/express.svg" alt="icono de html">
+                            EXPRESS
+                        </span>
+    
+                        <span class="span-skill">
+                            <img class="icono" src="./Icons/php.svg" alt="icono de html">
+                            PHP
+                        </span>
+    
+                        <span class="span-skill">
+                            <img class="icono" src="./Icons/mysql.svg" alt="icono de html">
+                            MYSQL
+                        </span>
+                    </article>
 
-                <h3 class="subtitle-skills">Mis skills son:</h3>
-                
-                <section class="section-skills">
-                    <span class="span-skill">
-                        <img class="icono" src="./Icons/Html.svg" alt="icono de html">
-                        HTML
-                    </span>
+                </section>
 
-                    <span class="span-skill">
-                        <img class="icono" src="./Icons/CSS3.svg" alt="icono de html">
-                        CSS
-                    </span>
+                <!-- SECTION PROJECTS -->
+                <section id="projects">
+                    <h3 class="subtitle-projects">Proyectos</h3>
 
-                    <span class="span-skill">
-                        <img class="icono" src="./Icons/Javascript.svg" alt="icono de html">
-                        JAVASCRIPT
-                    </span>
+                    <article id="proyecto1" class="proyectos">
+                        <h5>Copia de la landing de la Velada IV</h5>
+                        <img class="imagen-proyecto" src="./images/la-velada-4-min.png" alt="">
+                        <p class="project-description">
+                            Proyecto desarrollado con Astro y Tailwind, hecho de un video de Miguel Angel Duran @midudev.
+                        </p>
+                        <p class="content-link">
+                            <a target="_blank" rel="noopener noreferrer" class="project-link" href="https://copia-de-pre-landing-de-la-velada-iv.netlify.app/">Ver proyecto</a>
+                        </p>
+                        <p class="content-link">
+                            <a target="_blank" rel="noopener noreferrer" class="project-link" href="https://github.com/jpalma76/copia-de-la-velada-landing.git">Ver repositorio</a>
+                        </p>
+                    </article>
 
-                    <span class="span-skill">
-                        <img class="icono" src="./Icons/react.svg" alt="icono de html">
-                        REACTJS
-                    </span>
+                    <article id="proyecto2" class="proyectos">
+                        <h5>Porfolio-Dev</h5>
+                        <img class="imagen-proyecto" src="./images/porfolio-dev-min.png" alt="Captura de Porfolio Dev ">
+                        <p class="project-description">
+                           Proyecto desarrollado con Astro, taiwind y Flowbite.
+                        </p>
+                        <p class="content-link">
+                            <a target="_blank" rel="noopener noreferrer" class="project-link" href="https://copia-de-portfolio-dev.netlify.app/">Ver proyecto</a>
+                        </p>
+                        <p class="content-link">
+                            <a target="_blank" rel="noopener noreferrer" class="project-link" href="https://github.com/jpalma76/porfolio-dev.git">Ver repositorio</a>
+                        </p>
+                    </article>
 
-                    <span class="span-skill">
-                        <img class="icono" src="./Icons/astro.svg" alt="icono de html">
-                        ASTRO
-                    </span>
-
-                    <span class="span-skill">
-                        <img class="icono" src="./Icons/tailwind.svg" alt="icono de html">
-                        TAILWIND
-                    </span>
-
-                    <span class="span-skill">
-                        <img class="icono" src="./Icons/bootstrap.svg" alt="icono de html">
-                        BOOTSTRAP
-                    </span>
-
-                    <span class="span-skill">
-                        <img class="icono" src="./Icons/git.svg" alt="icono de html">
-                        GIT
-                    </span>
-
-                    <span class="span-skill">
-                        <img class="icono" src="./Icons/github.svg" alt="icono de html">
-                        GITHUB
-                    </span>
-
-                    <span class="span-skill">
-                        <img class="icono" src="./Icons/nodejs.svg" alt="icono de html">
-                        NODE
-                    </span>
-
-                    <span class="span-skill">
-                        <img class="icono" src="./Icons/express.svg" alt="icono de html">
-                        EXPRESS
-                    </span>
-
-                    <span class="span-skill">
-                        <img class="icono" src="./Icons/php.svg" alt="icono de html">
-                        PHP
-                    </span>
-
-                    <span class="span-skill">
-                        <img class="icono" src="./Icons/mysql.svg" alt="icono de html">
-                        MYSQL
-                    </span>
-
+                    <article id="proyecto3" class="proyectos">
+                        <h5>Minimalist porfolio with json</h5>
+                        <img class="imagen-proyecto" src="./images/minimalist-porfolio-with-json-min.png" alt="Captura de Porfolio Dev ">
+                        <p class="project-description">
+                           Porfolio dev hecho con Astro, CSS y un archivo json del cual se obtienen los datos, esta idea la copié de un video de @midudev. Esquema basado en el diseño de: <a target="_blank" rel="noopener noreferrer" class="project-link" href="https://github.com/BartoszJarocki/cv">Bartosz Jarocki</a> 
+                        </p>
+                        <p class="content-link">
+                            <a target="_blank" rel="noopener noreferrer" class="project-link" href="https://minimalist-portfolio-with-astro.netlify.app/">Ver proyecto</a>
+                        </p>
+                        <p class="content-link">
+                            <a target="_blank" rel="noopener noreferrer" class="project-link" href="https://github.com/jpalma76/minimalist-portfolio-with-json.git">Ver repositorio</a>
+                        </p>
+                    </article>
                 </section>
 
                 <section class="my-3 contacto">
@@ -221,7 +273,6 @@
     </div>
 
     <footer class="footer-container">
-        
         <div class="contact">
             <div class="email">
                 Contacto:

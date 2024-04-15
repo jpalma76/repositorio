@@ -86,7 +86,9 @@ a {
     color: blue;
     gap: 10px;
 }
-
+h3, h5 {
+    color: #444;
+}
 #ir {
     display: flex;
     align-items: center;
@@ -134,10 +136,20 @@ a {
     color: #444;
     padding: 30px;
 }
+.card-body section {
+    margin: 20px 0;
+}
+.card-body h3 {
+    color: #444;
+}
+.card-title, .card-text {
+    color: #444;
+}
 .image-container {
     width: 100%;
     height: 290px;
-    margin: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,7 +166,7 @@ a {
 .icono {
     width: 28px;
     height: 28px;
-    margin-right: 10px;
+    margin-right: 15px;
     border-radius: 10%;
 }
 .section-skills {
@@ -170,13 +182,13 @@ a {
 .span-skill {
     color: #444;
     width: 160px;
-    height: 30px;
+    height: 25px;
     display: flex;
-    font-size: 15px;
+    font-size: 16px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .card-body p {
     width: 90%;
@@ -185,10 +197,60 @@ a {
     padding: 10px 0;
     line-height: 1.8;
 }
+
+/* SECTION PROYECTOS */
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subtitle-projects {
+    margin: 20px 0;
+}
+.proyectos {
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagen-proyecto {
+    border-radius: 15px;
+    width: 450px;
+    margin: 30px 0;
+}
+.content-link {
+    width: 100%;
+    height: 30px;
+    padding: 0;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project-link {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+}
+.project-link:hover {
+    color: goldenrod;
+    font-size: 15px;
+}
+.proyecto1 .project-description {
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* ICONOS DE RRSS */
 .links {
     text-align: center;
     display: flex;
     justify-content: center;
+    align-items: center;
+    align-content: center;
     gap: 20px;
 }
 .links li {
@@ -197,33 +259,37 @@ a {
     list-style: none;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
+.icon-social {
+    width: 32px;
+    height: 32x;
+}
+.links li .icon-social:hover {
+    color: darkslategrey;
+    width: 36px;
+    height: 36px;
+    opacity: .6;
+    transition-duration: 0.1s;
+}
+
 .contacto {
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    margin-top: 30px;
 }
 .contacto a {
     color: rgb(103, 102, 102);
     list-style: none;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
 }
 .contacto a:hover {
+    font-size: 15px;
+    transition-duration: 0.1s;
     color: darkorange;
-}
-.icon-social {
-    width: 36px;
-    height: 36px;
-}
-.links li .icon-social:hover {
-    color: darkslategrey;
-    width: 48px;
-    height: 48px;
-    opacity: .6;
-    transition-duration: 0.2s;
 }
 
 /* section curriculum */
@@ -322,6 +388,7 @@ p {
     font-size: 16px;
 }
 
+/* FOOTER */
 .footer-container {
     width: 100%;
     height: 10vh;
