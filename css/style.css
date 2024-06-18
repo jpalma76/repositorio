@@ -234,14 +234,14 @@ a {
 }
 
 .central-col {
-    width: 50%;
+    width: 45%;
     min-width: 450px;
-    height: 53vh;
+    height: 49vh;
     background-color: rgb(230, 205, 172);
     color: rgb(103, 102, 102);
     display: flex;
     justify-content: center;
-    padding-top: 10vh;
+    padding-top: 8vh;
     margin: 0 auto;
 }
 .presentation {
@@ -264,7 +264,7 @@ a {
     font-weight: bold;
 }
 .presentation p a:hover {
-    color: goldenrod;
+    color: rgb(218, 187, 32);
 }
 
 /* section certificados */
