@@ -68,7 +68,7 @@ a {
 }
 .nav-links a .item {
     list-style: none;
-    padding: 10px;
+    padding: 8px 20px;
     border-radius: 25px;
 }
 .nav-links a .item:hover {
