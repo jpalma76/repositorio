@@ -358,11 +358,17 @@ p {
 .email a:hover {
     color: yellow; 
 }
-
+/* MEDIA QUERY */
+@media (min-width: 1330px) {
+    .head-layout {
+        display: inline-flex;
+        height: 170px;
+    }
+}
 /* querys del navbar */
 @media (max-width: 1330px) {
     .navbar {
-        height: auto;
+        height: 230px;
         padding: 20px;
         gap: 10px;
         justify-content: center;
@@ -372,6 +378,7 @@ p {
         justify-content: space-around;
     }
 }
+
 @media (max-width: 900px) {
     /* navbar */
     body {
@@ -444,16 +451,12 @@ p {
     }
 }
 
-/* querys del curriculum */
-@media (max-width:550px) {
-    .section-skills {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
 /* querys vista certificados */
-@media (max-width:700px) {
+@media (max-width:770px) {
+    .head-layout {
+        display: inline-flex;
+        height: 180px;
+    }
 
     .grid-container {
         grid-template-columns: 1fr;
@@ -481,6 +484,25 @@ p {
         
     }
 }
+
+/* query del header */
+@media (max-width:550px) {
+    .head-layout {
+        display: inline-flex;
+        height: 190px;
+    }
+}
+
+
+/* querys del curriculum */
+@media (max-width:550px) {
+    .section-skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
 @media(max-width: 450px) {
     body {
         margin: 0;
