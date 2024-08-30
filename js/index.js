@@ -12,7 +12,7 @@ function visitar() {
             $('#message').html("").css({
                 "display":"none"
             });
-            location.reload()
+            //location.reload()
         },3000);
     } else if(projects.value == 1) {
         window.open("https://otro-portafolio.netlify.app/", "_blank");
