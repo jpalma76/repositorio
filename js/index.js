@@ -25,13 +25,10 @@ function visitar() {
     } else if(projects.value == 5) {
         window.open("https://copia-de-pre-landing-de-la-velada-iv.netlify.app/", "_blank");
     } else if(projects.value == 6) {
-        window.open("https://blog-juan-palma.netlify.app/", "_blank");
-    } 
-    else if(projects.value == 7) {
         window.open("https://renderizado-de-peliculas.netlify.app/", "_blank");
-    } else if(projects.value == 8) {
+    } else if(projects.value == 7) {
         window.open("https://proyecto-react-carrito-de-compras.netlify.app/", "_blank");
-    } else if(projects.value == 9) {
+    } else if(projects.value == 8) {
         window.open("https://github.com/jpalma76", "_blank");
     }
 }
