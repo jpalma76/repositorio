@@ -40,8 +40,8 @@ let cursos = [
     {
         "id": 7,
        "name": "Trabajo en Altura para la Industria de Telecomunicaciones",
-        "image": "./img-certificados/cursos-achs/Seguridad_electrica_general_N1.png",
-        "url": "./img-certificados/cursos-achs/Seguridad_electrica_general_N1.png"
+        "image": "./img-certificados/certificaciones-vtr/trabajo_en_altura_para_la_industria_de_telecomunicaciones-min.png",
+        "url": "./img-certificados/certificaciones-vtr/trabajo_en_altura_para_la_industria_de_telecomunicaciones-min.png"
     }
     ,
     {
